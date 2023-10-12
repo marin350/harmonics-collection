@@ -1,0 +1,97 @@
+body{
+    background-image: url(../img/hcc.png);
+    font-family: 'Londrina Solid', sans-serif;
+    background-size: 90%;
+    background-repeat: repeat;
+    background-color: #CEE6BD;
+}
+@keyframes header-color {
+    0% {color: black;}
+    30% {color: olive;}
+    70% {color: orangered;}
+    100% {color: black;}
+}
+h1{
+    text-align: center;
+    animation: header-color 3s infinite forwards;
+}
+hr{
+    border-bottom: 0;
+    border-top: 10px double darkslateblue;
+    width: 50%;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    position: relative;
+    left: 9%;
+    color: darkslateblue;
+}
+#text-border{
+    border: 10px double;
+    padding: 20px;
+    border-radius: 10px;
+    color: darkslateblue;
+    margin: 20px;
+    font-size: 25px;
+    width: 40%;
+    position: relative;
+    left: 7%;
+    top: -520px
+}
+#text-border:hover{
+    border: 10px double lightsalmon;
+}
+a{
+    color: darkslateblue;
+    font-size: 30px;
+    position: relative;
+    left: 9%;
+    top: -300px;
+}
+a:hover{
+    color: lightsalmon;
+}
+.img-border{
+    position: relative;
+    left: 60%;
+    top: -100px;
+    rotate: 5deg;
+}
+.img-border:hover{
+    rotate: 0deg;
+}
+#sticker-1{
+    position: fixed;
+    top: 0px;
+    left: 80%;
+    rotate: 15deg;
+    z-index: 1;
+}
+#sticker-2{
+    position: fixed;
+    top: 40px;
+    left: 70%;
+    z-index: 2;
+}
+#sticker-3{
+    position: fixed;
+    top: 5px;
+    left: 76.5%;
+    z-index: 3;
+}
+.review{
+    border: 10px double;
+    padding: 20px;
+    border-radius: 10px;
+    color: darkslateblue;
+    margin: 20px;
+    font-size: 30px;
+    width: 50%;
+    position: relative;
+    left: 20%;
+    top: -400px;
+}
+.review:hover{
+    border: 10px double lightsalmon;
+}

@@ -1,0 +1,128 @@
+body{
+    background-image: url(../img/hcc.png);
+    background-size: 90%;
+    background-repeat: repeat;
+    background-color: #CEE6BD;
+    font-family: 'Londrina Solid', sans-serif;
+}
+@keyframes header-color {
+    0% {color: black;}
+    30% {color: olive;}
+    70% {color: orangered;}
+    100% {color: black;}
+}
+h1{
+    color: black;
+    text-align: center;
+    animation: header-color 3s infinite forwards;
+}
+h2{
+    font-family:'Odibee Sans', cursive;
+    font-size: 130px;
+    margin: 20px;
+    color: coral;
+    position: relative;
+    left: 6%;
+}
+hr{
+    border-top: 5px dashed;
+    border-bottom: 0px;
+    color: coral;
+    width: 50%;
+}
+a{
+    color: coral;
+    font-size: 35px;
+    margin: 110px;
+    position: relative;
+    top: -200px;
+}
+a:hover{
+    color:brown;
+}
+#sticker-1{
+    position: fixed;
+    top: 0px;
+    left: 80%;
+    rotate: 15deg;
+    z-index: 1;
+}
+#sticker-2{
+    position: fixed;
+    top: 40px;
+    left: 70%;
+    z-index: 2;
+}
+#sticker-3{
+    position: fixed;
+    top: 5px;
+    left: 76.5%;
+    z-index: 3;
+}
+#img-1{
+    position: relative;
+    left: 10%;
+    rotate: 3deg;
+}
+#img-2{
+    position: relative;
+    left: 20%;
+    rotate: -2deg;
+}
+#img-3{
+    position: relative;
+    left: 10%;
+    rotate: -5deg;
+}
+#img-4{
+    position: relative;
+    top: 30px;
+    left: 20%;
+    rotate: 3deg;
+}
+#img-1:hover{
+    rotate: 0deg;
+}
+#img-2:hover{
+    rotate: 2deg;
+}
+#img-3:hover{
+    rotate: 0deg;
+}
+#img-4:hover{
+    rotate: 0deg
+}
+.text-box{
+    background-color: coral;
+    border-radius: 150px;
+    color: brown;
+    width: 40%;
+    margin: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 10px double brown;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    top: 40px;
+}
+.review{
+    background-color: coral;
+    border-radius: 150px;
+    color: brown;
+    width: 40%;
+    margin: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 10px double brown;
+    font-size: 30px;
+    position: relative;
+    left: 2%;
+    top: -330px;
+}
+.text-box:hover{
+    border: 10px double rgb(255, 191, 0);
+}
+.review:hover{
+    border: 10px double rgb(255, 191, 0)
+}

@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/hcc.png);
+    background-size: 90%;
+    background-repeat: repeat;
+    background-color: #CEE6BD;
+    font-family:'Londrina Solid', sans-serif;
+    margin: 30px;
+}
+@keyframes pic-rotate {
+    0% {rotate: 15deg;}
+    50% {rotate: 5deg;}
+    100% {rotate: 15deg;}    
+}
+.heading{
+    color:black;
+    margin: 30px;
+    font-size: 200px;
+    word-wrap: break-word;
+    width: 600px;
+    line-height: 150px;
+    position: relative;
+}
+p{
+    font-size: 40px;
+}
+a{
+    font-size: 40px;
+    color: black;
+    margin: 30px;
+}
+a:hover{
+    color:olive;
+}
+.img-align{
+    position: absolute;
+    top: -5%;
+    left: 120%;
+    animation: pic-rotate 2s infinite forwards;
+}
+.text-align{
+    margin: 50px;
+    position: static;
+    bottom: 50%;
+    width: 970px;
+    line-height: 75px;
+}

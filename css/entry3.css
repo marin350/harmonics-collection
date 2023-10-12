@@ -1,0 +1,106 @@
+body{
+    background-image: url(../img/hcc.png);
+    font-family: 'Londrina Solid', sans-serif;
+    background-size: 90%;
+    background-repeat: repeat;
+    background-color: #CEE6BD;
+}
+@keyframes header-color {
+    0% {color: black;}
+    30% {color: olive;}
+    70% {color: orangered;}
+    100% {color: black;}
+}
+h1{
+    text-align: center;
+    animation: header-color 3s infinite forwards;
+}
+h2{
+    font-family: 'Fasthand', cursive;
+    font-size: 150px;
+    margin: 10px;
+    color: darkred;
+    position: relative;
+    left: 10%;
+}
+hr{
+    border-top: 5px dotted darkred;
+    border-bottom: 0;
+    width: 50%;
+}
+a{
+    color: darkred;
+    font-size: 30px;
+    position: relative;
+    left: 10%;
+    top: -100px;
+}
+a:hover{
+    color: darkorange;
+}
+#sticker-1{
+    position: fixed;
+    top: 0px;
+    left: 80%;
+    rotate: 15deg;
+    z-index: 1;
+}
+#sticker-2{
+    position: fixed;
+    top: 40px;
+    left: 70%;
+    z-index: 2;
+}
+#sticker-3{
+    position: fixed;
+    top: 8px;
+    left: 76.5%;
+    z-index: 3;
+}
+#img-1{
+    position: relative;
+    left: 5%;
+    top: -30px;
+    rotate: -5deg;
+}
+#img-2{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    rotate: 5deg;
+}
+#img-1:hover{
+    rotate: 0deg;
+}
+#img-2:hover{
+    rotate: 0deg;
+}
+.text-box{
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 10%;
+    width: 35%;
+    color: darkred;
+    border: 5px dotted darkred;
+    border-radius: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.text-box:hover{
+    border: 5px dotted darkorange;
+}
+.review{
+    font-size: 25px;
+    position: relative;
+    top: -250px;
+    left: 50%;
+    word-wrap: break-word;
+    width: 500px;
+    border: 5px dotted darkred;
+    border-radius: 50px;
+    padding: 20px
+}
+.review:hover{
+    border: 5px dotted darkorange;
+}
