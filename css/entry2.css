@@ -3,7 +3,8 @@ body{
     background-size: 90%;
     background-repeat: repeat;
     background-color: #CEE6BD;
-    font-family: 'Londrina Solid', sans-serif;
+    font-family: 'space grotesk';
+    font-weight: 400;
     color:black;
 }
 @keyframes header-color {
@@ -12,11 +13,22 @@ body{
     70% {color: orangered;}
     100% {color: black;}
 }
+@keyframes text-box {
+    0% {border: 7px dotted darkgoldenrod;}
+    50% {border: 7px dotted beige;}
+    100% {border: 7px dotted darkgoldenrod;}
+}
+@keyframes review {
+    0% {border: 7px dotted beige;}
+    50% {border: 7px dotted darkgoldenrod;}
+    100% {border: 7px dotted beige;}
+}
 h1{
     text-align: center;
     font-size: 40px;
     margin: 30px;
-    animation: header-color 3s infinite forwards;
+    letter-spacing: -3px;
+    animation: header-color 2s infinite forwards;
 }
 hr{
     border-bottom: 0;
@@ -34,30 +46,41 @@ h2{
 a{
     color: brown;
     margin: 120px;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
-    bottom: 200px;
+    bottom: 400px;
+    background-color: beige;
+    padding: 15px;
+    margin: 120px;
+    border-radius: 15px;
+}
+#next-page{
+    bottom: 370px;
+}
+#prev-page{
+    bottom: 340px;
 }
 a:hover{
-    color: darkgoldenrod;
+    color: beige;
+    background-color: brown;
 }
 #img-1{
     position: relative;
-    top: 0%;
+    top: 10px;
     left: 10%;
     rotate: -5deg;
 }
 #img-2{
     position: absolute;
-    top: 35%;
+    top: 38%;
     left: 55%;
-    rotate: 10deg;
+    rotate: 5deg;
 }
 #img-1:hover{
     rotate: 0deg;
 }
 #img-2:hover{
-    rotate: 5deg;
+    rotate: 0deg;
 }
 .text-box{
     margin: 50px;
@@ -66,23 +89,20 @@ a:hover{
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 25px;
     width: 35%;
     color: beige;
     position: relative;
     left: 7%;
-}
-.text-box:hover{
-    border:  5px dotted beige;
+    animation: text-box 1s infinite forwards;
 }
 .review{
     position: relative;
-    top: -300px;
-    left: 50%;
+    top: -440px;
+    left: 45%;
     width: 500px;
     word-wrap: break-word;
-    margin: 30px;
-    border: 5px dotted darkgoldenrod;
+    margin: 25px;
     background: brown;
     border-radius: 20px;
     padding: 20px;
@@ -90,13 +110,13 @@ a:hover{
     font-size: 30px;
     width: 35%;
     color: beige;
-}
-.review:hover{
-    border: 5px dotted beige;
+    animation: review 1s infinite forwards;
+    line-height: 35px;
+    letter-spacing: -1px;
 }
 #sticker-1{
     position: fixed;
-    top: -20px;
+    top: 0px;
     left: 80%;
     rotate: 15deg;
     z-index: 1;
@@ -109,7 +129,43 @@ a:hover{
 }
 #sticker-3{
     position: fixed;
-    top: 0;
+    top: 10px;
     left: 76.5%;
     z-index: 3;
+}
+#coke{
+    position: relative;
+    top: -1300px;
+    left: -13%;
+    rotate: -5deg;
+}
+#candle{
+    position: relative;
+    top: -500px;
+    left: 20%;
+    animation: candle 2s infinite forwards;
+}
+#stars{
+    position: relative;
+    top: -200px;
+    left: 15%;
+}
+#stars:hover{
+    rotate: 5deg;
+}
+#candle2{
+    position: relative;
+    top: -490px;
+    left: -0.5%;
+    animation: candle2 2s infinite  forwards;
+}
+@keyframes candle {
+   0% {opacity: 1;}
+   50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+@keyframes candle2 {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
 }

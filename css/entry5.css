@@ -1,6 +1,8 @@
+/* change page button (add backgrounds) */
 body{
     background-image: url(../img/hcc.png);
-    font-family: 'Londrina Solid', sans-serif;
+    font-family: 'space grotesk';
+    font-weight: 400;
     background-size: 90%;
     background-repeat: repeat;
     background-color: #CEE6BD;
@@ -13,7 +15,9 @@ body{
 }
 h1{
     text-align: center;
-    animation: header-color 3s infinite forwards;
+    letter-spacing: -3px;
+    font-size: 40px;
+    animation: header-color 2s infinite forwards;
 }
 hr{
     border-bottom: 0;
@@ -37,26 +41,37 @@ h2{
     width: 40%;
     position: relative;
     left: 7%;
-    top: -520px
+    top: -700px
 }
 #text-border:hover{
     border: 10px double lightsalmon;
 }
 a{
     color: darkslateblue;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
     left: 9%;
-    top: -300px;
+    top: -600px;
+    background-color: lightsalmon;
+    padding: 10px;
+    border-radius: 15px;
+}
+#nextpage{
+    top: -580px;
+}
+#prevpage{
+    top: -560px;
 }
 a:hover{
     color: lightsalmon;
+    background-color: darkslateblue;
+
 }
 .img-border{
     position: relative;
-    left: 60%;
-    top: -100px;
-    rotate: 5deg;
+    left: 58%;
+    top: -350px;
+    rotate: 3deg;
 }
 .img-border:hover{
     rotate: 0deg;
@@ -89,9 +104,44 @@ a:hover{
     font-size: 30px;
     width: 50%;
     position: relative;
-    left: 20%;
-    top: -400px;
+    left: 34%;
+    top: -650px;
+    line-height: 35px;
+    letter-spacing: -1px;
 }
 .review:hover{
     border: 10px double lightsalmon;
+}
+#stars{
+    position: relative;
+    top: 200px;
+    left: 10%;
+    animation: star1 2s infinite forwards;
+}
+#stars2{
+    position: relative;
+    top: 197px;
+    left: -9.999%;
+    animation: star2 2s infinite forwards;
+}
+@keyframes star1{
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes star2{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+#dog{
+    position: relative;
+    left: -4%;
+    top: -200px;
+    animation: dog 5s infinite forwards;
+}
+@keyframes dog {
+    0% {transform: scaleX(1);}
+    50% {transform: scaleX(-1);}
+    100% {transform: scaleX(1);}
 }

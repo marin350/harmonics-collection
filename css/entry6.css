@@ -1,6 +1,8 @@
+/* change page button (add backgrounds) */
 body{
     background-image: url(../img/hcc.png);
-    font-family: 'Londrina Solid', sans-serif;
+    font-family: 'space grotesk';
+    font-weight: 400;
     background-size: 90%;
     background-repeat: repeat;
     background-color: #CEE6BD;
@@ -13,7 +15,9 @@ body{
 }
 h1{
     text-align: center;
-    animation: header-color 3s infinite forwards;
+    font-size: 40px;
+    letter-spacing: -3px;
+    animation: header-color 2s infinite forwards;
 }
 h2{
     font-family: 'Urbanist', sans-serif;
@@ -77,9 +81,7 @@ hr{
     color: orange;
     position: relative;
     left: 7%;
-}
-.text-box:hover{
-    border: 7px dotted palegoldenrod;
+    animation: text-box 1s infinite forwards;
 }
 .review{
     margin: 50px;
@@ -94,9 +96,9 @@ hr{
     position: relative;
     left: 45%;
     top: -375px;
-}
-.review:hover{
-    border: 7px dotted palegoldenrod;
+    animation: review-box 1s infinite forwards;
+    line-height: 35px;
+    letter-spacing: -1px;
 }
 a{
     font-size: 30px;
@@ -107,4 +109,14 @@ a{
 }
 a:hover{
     color: orange;
+}
+@keyframes text-box {
+    0% {border: 10px dotted orange;}
+    50% {border: 10px dotted palegoldenrod;}
+    100% {border: 10px dotted orange;}
+}
+@keyframes review-box {
+    0% {border: 10px dotted palegoldenrod;}
+    50% {border: 10px dotted orange;}
+    100% {border: 10px dotted palegoldenrod;}
 }

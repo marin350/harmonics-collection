@@ -1,9 +1,11 @@
+/* change page button (add backgrounds) */
 body{
     background-image: url(../img/hcc.png);
     background-size: 90%;
     background-repeat: repeat;
     background-color: #CEE6BD;
-    font-family:'Londrina Solid', sans-serif;
+    font-family: 'space grotesk';
+    font-weight: 500;
     margin: 30px;
 }
 @keyframes pic-rotate {
@@ -13,28 +15,32 @@ body{
 }
 .heading{
     color:black;
-    margin: 30px;
-    font-size: 200px;
+    margin: 40px;
+    font-size: 180px;
     word-wrap: break-word;
-    width: 600px;
-    line-height: 150px;
+    width: 680px;
+    line-height: 140px;
     position: relative;
+    letter-spacing: -17px;
+    top: 50px;
 }
 p{
     font-size: 40px;
 }
 a{
-    font-size: 40px;
+    font-size: 45px;
     color: black;
     margin: 30px;
+    letter-spacing: -3px;
+    line-height: 50px;
 }
 a:hover{
-    color:olive;
+    color:orangered;
 }
 .img-align{
     position: absolute;
-    top: -5%;
-    left: 120%;
+    top: -18%;
+    left: 115%;
     animation: pic-rotate 2s infinite forwards;
 }
 .text-align{

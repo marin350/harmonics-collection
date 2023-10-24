@@ -1,9 +1,11 @@
+/* change page button (add backgrounds) */
 body{
     background-image: url(../img/hcc.png);
     background-size: 90%;
     background-repeat: repeat;
     background-color: #CEE6BD;
-    font-family: 'Londrina Solid', sans-serif;
+    font-family: 'space grotesk';
+    font-weight: 400;
 }
 @keyframes header-color {
     0% {color: black;}
@@ -13,16 +15,18 @@ body{
 }
 h1{
     color: black;
+    letter-spacing: -3px;
     text-align: center;
-    animation: header-color 3s infinite forwards;
+    font-size: 40px;
+    animation: header-color 2s infinite forwards;
 }
 h2{
     font-family:'Odibee Sans', cursive;
     font-size: 130px;
     margin: 20px;
-    color: coral;
+    color: brown;
     position: relative;
-    left: 6%;
+    left: 7%;
 }
 hr{
     border-top: 5px dashed;
@@ -31,14 +35,24 @@ hr{
     width: 50%;
 }
 a{
-    color: coral;
-    font-size: 35px;
+    color: beige;
+    font-size: 20px;
     margin: 110px;
     position: relative;
-    top: -200px;
+    top: -500px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 15px;
+}
+#nextpage{
+    top: -480px;
+}
+#prevpage{
+    top: -460px;
 }
 a:hover{
     color:brown;
+    background-color: coral;
 }
 #sticker-1{
     position: fixed;
@@ -62,67 +76,97 @@ a:hover{
 #img-1{
     position: relative;
     left: 10%;
-    rotate: 3deg;
 }
 #img-2{
     position: relative;
     left: 20%;
-    rotate: -2deg;
 }
 #img-3{
     position: relative;
-    left: 10%;
-    rotate: -5deg;
+    left: 13%;
+    top: -60px;
 }
 #img-4{
     position: relative;
-    top: 30px;
-    left: 20%;
-    rotate: 3deg;
-}
-#img-1:hover{
-    rotate: 0deg;
-}
-#img-2:hover{
-    rotate: 2deg;
-}
-#img-3:hover{
-    rotate: 0deg;
-}
-#img-4:hover{
-    rotate: 0deg
+    top: -60px;
+    left: 25%;
 }
 .text-box{
-    background-color: coral;
+    background-color: brown;
     border-radius: 150px;
-    color: brown;
+    color: beige;
     width: 40%;
     margin: 30px;
     padding: 50px;
     box-sizing: border-box;
-    border: 10px double brown;
+    border: 10px double coral;
     font-size: 20px;
     position: relative;
-    left: 50%;
-    top: 40px;
+    left: 48%;
+    top: -220px;
+    line-height: 25px;
+    letter-spacing: -1px;
 }
 .review{
-    background-color: coral;
+    background-color: brown;
     border-radius: 150px;
-    color: brown;
+    color: beige;
     width: 40%;
     margin: 30px;
     padding: 50px;
     box-sizing: border-box;
-    border: 10px double brown;
+    border: 10px double coral;
     font-size: 30px;
     position: relative;
-    left: 2%;
-    top: -330px;
+    left: 5%;
+    top: -560px;
+    line-height: 30px;
+    letter-spacing: -1px;
 }
 .text-box:hover{
-    border: 10px double rgb(255, 191, 0);
+    border: 10px double beige
 }
 .review:hover{
-    border: 10px double rgb(255, 191, 0)
+    border: 10px double beige;
+}
+#stars{
+    position: relative;
+    left: 23%;
+}
+#pot{
+    position: relative;
+    top: -1400px;
+    left: -10%;
+}
+#shrimp{
+    position: relative;
+    top: -1380px;
+    left: -10%;
+}
+#squig1{
+    position: relative;
+    top: -1000px;
+    left: 47%;
+}
+#squig2{
+    position: relative;
+    top: -550px;
+    left: 26%;
+    rotate: 50deg;
+}
+#spoon{
+    position: relative;
+    top: -660px;
+    left: 20%;
+    animation: spoon 2s infinite forwards;
+}
+@keyframes spoon {
+    0% {rotate: 0deg;}
+    50% {rotate: -10deg;}
+    100% {rotate: 0deg;}
+}
+#leaf{
+    position: relative;
+    top: -1490px;
+    rotate: -70deg;
 }

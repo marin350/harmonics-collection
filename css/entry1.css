@@ -3,7 +3,8 @@ body{
     background-size: 90%;
     background-repeat: repeat;
     background-color: #CEE6BD;
-    font-family: 'Londrina Solid', sans-serif;
+    font-family: 'space grotesk';
+    font-weight: 400;
 }
 @keyframes header-color {
     0% {color: black;}
@@ -33,28 +34,35 @@ body{
 h1{
     text-align: center;
     font-size: 40px;
-    animation: header-color 3s infinite forwards;
+    letter-spacing: -3px;
+    animation: header-color 2s infinite forwards;
 }
 h2{
     font-family: 'Handjet', sans-serif;
+    color: darkblue;
     font-size: 120px;
     margin: 45px;
     position: relative;
     left: 4%;
 }
-h2:hover{
-    color: darkblue;
-}
 a{
-    color: darkblue;
+    color: aliceblue;
     margin: 40px;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
-    top: -200px;
+    top: -400px;
     left: 5%;
+    background-color: darkblue;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 15px;
+}
+#next-page{
+    top: -380px;
 }
 a:hover{
-    color: black;
+    color:darkblue;
+    background-color: orange;
 }
 div{
     margin: 30px;
@@ -75,11 +83,18 @@ hr{
     left: 55%;
     width: 35%;
     color:#CEE6BD;
+    line-height: 10px;
+    animation: text-border 2s infinite forwards;
+}
+@keyframes text-border{
+    0% {border: 5px orange dotted;}
+    50% {border: 8px orange dotted;}
+   100% {border: 5px orange dotted;}
 }
 #img-border{
     position: relative;
-    left: 0%;
-    top: -230px;
+    left: 2%;
+    top: -770px;
     rotate: -5deg;
     margin: 20px;
 }
@@ -88,18 +103,25 @@ hr{
 }
 .review{
     position: relative;
-    left: 15%;
-    top: -220px;
+    background-color: darkblue;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    left: 3%;
+    top: -750px;
     font-size: 35px;
     margin: 80px;
-    color: darkblue;
+    color:#CEE6BD;
     width: 800px;
     word-wrap: break-word;
+    line-height: 35px;
+    letter-spacing: -1px;
+    animation: text-border 2s infinite forwards;
 }
 #hot-dog-1{
     position: relative;
     left: 35%;
-    top: -170px;
+    top: -700px;
 }
 #hot-dog-1:hover{
     opacity:0%
@@ -108,8 +130,57 @@ hr{
     opacity: 0;
     position: relative;
     left: 14%;
-    top: -170px
+    top: -700px
 }
 #hot-dog-2:hover{
     opacity: 100%;
 }
+#stars{
+    position: relative;
+    left: 55%;
+    top: 150px;
+}
+#g1{
+    position: relative;
+    left: 28%;
+    top: 500px;
+    animation: pac-ghost 2s infinite  forwards;
+}
+@keyframes pac-ghost {
+    0% {top: 500px;}
+    50% {top: 550px;}
+    100% {top: 500px;}
+}
+#g2{
+    position: relative;
+    left: 14%;
+    top: 1000px;
+    animation: she-ghost 5s infinite forwards;
+}
+@keyframes she-ghost {
+    0% {left: 14%;}
+    50% {left: -54%;}
+    100% {left: 14%;}
+}
+#ketchup{
+    position: relative;
+    top: -250px;
+    left: -15%;
+    animation: ketchup 2s infinite forwards;
+}
+#ketchup2{
+    position: relative;
+    top: -450px;
+    left: 60%;
+    animation: ketchup2 2s infinite forwards;
+}
+@keyframes ketchup {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ @keyframes ketchup2 {
+     0% {opacity: 0;}
+     50% {opacity: 1;}
+     100% {opacity: 0;}
+ }
