@@ -1,6 +1,6 @@
 /* change page button (add backgrounds) */
 body{
-    background-image: url(../img/hcc.png);
+    background-image: url(../img/bbb.png);
     background-size: 90%;
     background-repeat: repeat;
     background-color: #CEE6BD;
@@ -9,8 +9,8 @@ body{
 }
 @keyframes header-color {
     0% {color: black;}
-    30% {color: olive;}
-    70% {color: orangered;}
+    30% {color: brown;}
+    70% {color: coral;}
     100% {color: black;}
 }
 h1{

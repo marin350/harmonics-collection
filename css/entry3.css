@@ -1,6 +1,6 @@
 /* change page button (add backgrounds) */
 body{
-    background-image: url(../img/hcc.png);
+    background-image: url(../img/rb.png);
     font-family: 'space grotesk';
     font-weight: 400;
     background-size: 90%;
@@ -9,8 +9,8 @@ body{
 }
 @keyframes header-color {
     0% {color: black;}
-    30% {color: olive;}
-    70% {color: orangered;}
+    30% {color: darkred;}
+    70% {color: burlywood;}
     100% {color: black;}
 }
 h1{

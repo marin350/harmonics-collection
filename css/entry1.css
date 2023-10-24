@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/hcc.png);
+    background-image: url(../img/cdb.png);
     background-size: 90%;
     background-repeat: repeat;
     background-color: #CEE6BD;
@@ -8,7 +8,7 @@ body{
 }
 @keyframes header-color {
     0% {color: black;}
-    30% {color: olive;}
+    30% {color: darkblue;}
     70% {color: orangered;}
     100% {color: black;}    
 }
