@@ -44,9 +44,9 @@ a:hover{
     animation: pic-rotate 2s infinite forwards;
 }
 .text-align{
-    margin: 50px;
+    margin: 40px;
     position: static;
     bottom: 50%;
-    width: 970px;
-    line-height: 75px;
+    width: 1150px;
+    line-height: 75px; 
 }
