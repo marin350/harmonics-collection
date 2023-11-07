@@ -34,23 +34,26 @@ hr{
     width: 50%;
 }
 #sticker-1{
-    position: fixed;
-    top: 0px;
-    left: 80%;
+    position: absolute;
     rotate: 15deg;
+    left: 80%;
+    top: -270px;
     z-index: 1;
 }
 #sticker-2{
-    position: fixed;
-    top: 40px;
-    left: 70%;
+    position: absolute;
     z-index: 2;
+    left: 70%;
+    top: -250px;
 }
 #sticker-3{
-    position: fixed;
-    top: 5px;
-    left: 76.5%;
+    position: absolute;
+    left: 77%;
+    top: -290px;
     z-index: 3;
+}
+.sticker-div{
+    position: relative;
 }
 #img-1{
     position: relative;
@@ -99,6 +102,9 @@ a{
     border-radius: 15px;
 }
 #prev-page{
+    top: 580px;
+}
+#next-page{
     top: 550px;
 }
 a:hover{
@@ -108,26 +114,22 @@ a:hover{
 #img-1s{
     position: absolute;
     left: 65%;
-    /* cheese */
 }
 #img-2{
     position: absolute;
     left: 45%;
     top: 340px;
-    /* roll */
 }
 #img-3{
     position: absolute;
     left: -2%;
     top: 770px;
     animation: fish-2 6s infinite forwards;
-    /* fish */
 }
 #img-4{
     position: absolute;
     left: 45%;
     top: -150px;
-    /* carrot */
 }
 @keyframes fish-2 {
     0% {rotate: 0deg; left: -2%;}
@@ -142,6 +144,47 @@ a:hover{
     left: 36%;
     top: 900px;
 }
-#star:hover{
-    rotate: 5deg;
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 50px;
+    }
+    #sticker-1{
+        left: 77%;
+        top: -150px;
+    }
+    #sticker-2{
+         left: 1%;
+         top: -225px;
+    }
+    #sticker-3{
+         left: 79%;
+         top: -200px;
+    }
+    #img-1{
+        width: 50px;
+    }
+    .text-box{
+        width: 40px;
+        top: 200px;
+    }
+    .review{
+        width: 90%;
+        top: 300px;
+        left: 5%;
+    }
+    #img-1s{
+        width: 100px;
+    }
+    #img-2{
+        width: 100px;
+    }
+    #img-3{
+        width: 100px;
+    }
+    #img-4{
+        width: 100px;
+    }
+    #star{
+        width: 200px;
+    }
 }

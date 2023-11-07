@@ -39,9 +39,9 @@ h2{
     margin: 20px;
     font-size: 25px;
     width: 40%;
-    position: relative;
+    position: absolute;
     left: 7%;
-    top: -700px
+    top: -50px;
 }
 #text-border:hover{
     border: 10px double lightsalmon;
@@ -50,50 +50,56 @@ a{
     color: darkslateblue;
     font-size: 20px;
     position: relative;
-    left: 9%;
-    top: -600px;
     background-color: lightsalmon;
     padding: 10px;
     border-radius: 15px;
+    left: 8%;
+    top: 700px;
 }
 #nextpage{
-    top: -580px;
+    top: 730px;
 }
 #prevpage{
-    top: -560px;
+    top: 760px;
 }
 a:hover{
     color: lightsalmon;
     background-color: darkslateblue;
 
 }
-.img-border{
+.parent-div{
     position: relative;
-    left: 58%;
-    top: -350px;
+}
+.img-border{
+    position: absolute;
     rotate: 3deg;
+    left: 60%;
+    top: -100px;
 }
 .img-border:hover{
     rotate: 0deg;
 }
 #sticker-1{
-    position: fixed;
-    top: 0px;
-    left: 80%;
+    position: absolute;
     rotate: 15deg;
+    left: 80%;
+    top: -330px;
     z-index: 1;
 }
 #sticker-2{
-    position: fixed;
-    top: 40px;
-    left: 70%;
+    position: absolute;
     z-index: 2;
+    left: 70%;
+    top: -290px;
 }
 #sticker-3{
-    position: fixed;
-    top: 5px;
-    left: 76.5%;
+    position: absolute;
+    left: 77%;
+    top: -320px;
     z-index: 3;
+}
+.sticker-div{
+    position: relative;
 }
 .review{
     border: 10px double;
@@ -103,26 +109,26 @@ a:hover{
     margin: 20px;
     font-size: 30px;
     width: 50%;
-    position: relative;
-    left: 34%;
-    top: -650px;
+    position: absolute;
     line-height: 35px;
     letter-spacing: -1px;
+    left: 40%;
+    top: 400px;
 }
 .review:hover{
     border: 10px double lightsalmon;
 }
 #stars{
-    position: relative;
-    top: 200px;
-    left: 10%;
+    position: absolute;
     animation: star1 2s infinite forwards;
+    left: 10%;
+    top: 400px;
 }
 #stars2{
-    position: relative;
-    top: 197px;
-    left: -9.999%;
+    position: absolute;
     animation: star2 2s infinite forwards;
+    left: 10%;
+    top: 400px;
 }
 @keyframes star1{
     0% {opacity: 1;}
@@ -135,10 +141,10 @@ a:hover{
     100% {opacity: 0;}
 }
 #dog{
-    position: relative;
-    left: -4%;
-    top: -200px;
+    position: absolute;
     animation: dog 5s infinite forwards;
+    left: 40%;
+    top: -210px;
 }
 @keyframes dog {
     0% {transform: scaleX(1);}

@@ -1,0 +1,177 @@
+/* change page button (add backgrounds) */
+body{
+    background-image: url(../img/mbc.png);
+    background-size: 90%;
+    background-repeat: repeat;
+    background-color: #CEE6BD;
+    font-family: 'space grotesk';
+    font-weight: 400;
+}
+@keyframes header-color {
+    0% {color: beige;}
+    30% {color: lightpink;}
+    70% {color: mediumvioletred;}
+    100% {color: beige;}
+}
+h1{
+    color: lightpink;
+    letter-spacing: -3px;
+    text-align: center;
+    font-size: 40px;
+    animation: header-color 2s infinite forwards;
+}
+h2{
+    font-family:'Voltaire';
+    font-size: 130px;
+    margin: 20px;
+    color: lightpink;
+    position: relative;
+    left: 7%;
+}
+hr{
+    border-top: 5px dashed;
+    border-bottom: 0px;
+    color: beige;
+    width: 50%;
+}
+a{
+    color: mediumvioletred;
+    font-size: 20px;
+    margin: 110px;
+    position: absolute;
+    top: 1000px;
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 15px;
+}
+#prev-page{
+    top: 1060px;
+}
+a:hover{
+    color:lightpink;
+    background-color: darkslategray;
+}
+#sticker-1{
+    position: absolute;
+    rotate: 15deg;
+    left: 80%;
+    top: -270px;
+    z-index: 1;
+}
+#sticker-2{
+    position: absolute;
+    z-index: 2;
+    left: 70%;
+    top: -250px;
+}
+#sticker-3{
+    position: absolute;
+    left: 77%;
+    top: -290px;
+    z-index: 3;
+}
+.sticker-div{
+    position: relative;
+}
+.text-box{
+    border-radius: 80px;
+    color: lightpink;
+    width: 40%;
+    margin: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 5px solid lightpink;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    line-height: 25px;
+    letter-spacing: -1px;
+}
+.review{
+    border-radius: 80px;
+    color: lightpink;
+    width: 40%;
+    margin: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 5px solid lightpink;
+    font-size: 30px;
+    position: absolute;
+    line-height: 30px;
+    letter-spacing: -1px;
+    top: 600px;
+    left: 5%;
+}
+#img1{
+    position: absolute;
+    top: -5%;
+    left: 10%;
+}
+#img2{
+    position: absolute;
+    top: -5%;
+    left: 40%;
+}
+#img3{
+    position: absolute;
+    top: -5%;
+    left: 70%;
+}
+.parent-div{
+    position: relative;
+}
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 75px;
+    }
+    #img1{
+        width: 200px;
+        margin: 60px;
+        left: -5%;
+        top: -50px;
+    }
+    #img2{
+        width: 200px;
+        margin: 60px;
+        left: 35%;
+        top: -50px;
+    }
+    #img3{
+        width: 200px;
+        margin: 60px;
+        left: 18%;
+        top: 250px;
+    }
+    .text-box{
+        font-size: 20px;
+        width: 80%;
+        line-height: 20px;
+        left: 5%;
+    }
+    .review{
+        font-size: 20px;
+        width: 80%;
+        line-height: 20px;
+        left: 5%;
+        top: 900px;
+    }
+    a{
+        top: 1000px;
+    }
+    .prev-page{
+        left: 80%;
+    }
+    #sticker-1{
+       left: 77%;
+       top: -130px;
+    }
+    #sticker-2{
+        left: 1%;
+        top: -225px;
+    }
+    #sticker-3{
+        left: 79%;
+        top: -200px;
+    }
+}

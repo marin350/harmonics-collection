@@ -53,12 +53,13 @@ a{
     padding: 15px;
     margin: 120px;
     border-radius: 15px;
+    top: 770px;
 }
 #next-page{
-    bottom: 370px;
+    top: 800px;
 }
 #prev-page{
-    bottom: 340px;
+   top: 830px;
 }
 a:hover{
     color: beige;
@@ -66,21 +67,11 @@ a:hover{
 }
 #img-1{
     position: relative;
-    top: 10px;
     left: 10%;
-    rotate: -5deg;
 }
 #img-2{
     position: absolute;
-    top: 38%;
-    left: 55%;
-    rotate: 5deg;
-}
-#img-1:hover{
-    rotate: 0deg;
-}
-#img-2:hover{
-    rotate: 0deg;
+    left: 50%;
 }
 .text-box{
     margin: 50px;
@@ -92,14 +83,12 @@ a:hover{
     font-size: 25px;
     width: 35%;
     color: beige;
-    position: relative;
-    left: 7%;
+    position: absolute;
     animation: text-box 1s infinite forwards;
+    left: 5%;
 }
 .review{
-    position: relative;
-    top: -440px;
-    left: 45%;
+    position: absolute;
     width: 500px;
     word-wrap: break-word;
     margin: 25px;
@@ -113,51 +102,35 @@ a:hover{
     animation: review 1s infinite forwards;
     line-height: 35px;
     letter-spacing: -1px;
+    left: 50% ;
+    top: 900px;
 }
-#sticker-1{
-    position: fixed;
-    top: 0px;
-    left: 80%;
-    rotate: 15deg;
-    z-index: 1;
-}
-#sticker-2{
-    position: fixed;
-    top: 40px;
-    left: 70%;
-    z-index: 2;
-}
-#sticker-3{
-    position: fixed;
-    top: 10px;
-    left: 76.5%;
-    z-index: 3;
+.parent-div{
+    position: relative;
 }
 #coke{
-    position: relative;
-    top: -1300px;
-    left: -13%;
+    position: absolute;
     rotate: -5deg;
+    top: -300px;
+    left: 5%;
 }
 #candle{
-    position: relative;
-    top: -500px;
-    left: 20%;
+    position: absolute;
     animation: candle 2s infinite forwards;
+    left: 60%;
 }
 #stars{
-    position: relative;
-    top: -200px;
-    left: 15%;
+    position: absolute;
+    top: 930px;
+    left: 10%;
 }
 #stars:hover{
     rotate: 5deg;
 }
 #candle2{
-    position: relative;
-    top: -490px;
-    left: -0.5%;
+    position: absolute;
     animation: candle2 2s infinite  forwards;
+    left: 60%;
 }
 @keyframes candle {
    0% {opacity: 1;}
@@ -168,4 +141,26 @@ a:hover{
     0% {opacity: 0;}
     50% {opacity: 1;}
     100% {opacity: 0;}
+}
+#sticker-1{
+    position: absolute;
+    rotate: 15deg;
+    left: 80%;
+    top: -270px;
+    z-index: 1;
+}
+#sticker-2{
+    position: absolute;
+    z-index: 2;
+    left: 70%;
+    top: -230px;
+}
+#sticker-3{
+    position: absolute;
+    left: 77%;
+    top: -270px;
+    z-index: 3;
+}
+.sticker-div{
+    position: relative;
 }

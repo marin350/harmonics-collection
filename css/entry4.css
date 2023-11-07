@@ -39,57 +39,64 @@ a{
     font-size: 20px;
     margin: 110px;
     position: relative;
-    top: -500px;
+    top: 1900px;
     background-color: brown;
     padding: 10px;
     border-radius: 15px;
 }
 #nextpage{
-    top: -480px;
+    top: 1930px;
 }
 #prevpage{
-    top: -460px;
+    top: 1960px;
 }
 a:hover{
     color:brown;
     background-color: coral;
 }
+.parent-div{
+    position: relative;
+}
 #sticker-1{
-    position: fixed;
-    top: 0px;
-    left: 80%;
+    position: absolute;
     rotate: 15deg;
+    left: 80%;
+    top: -270px;
     z-index: 1;
 }
 #sticker-2{
-    position: fixed;
-    top: 40px;
-    left: 70%;
+    position: absolute;
     z-index: 2;
+    left: 70%;
+    top: -230px;
 }
 #sticker-3{
-    position: fixed;
-    top: 5px;
-    left: 76.5%;
+    position: absolute;
+    left: 77%;
+    top: -270px;
     z-index: 3;
 }
-#img-1{
+.sticker-div{
     position: relative;
-    left: 10%;
+}
+#img-1{
+    position: absolute;
+    left: 5%;
 }
 #img-2{
-    position: relative;
-    left: 20%;
+    position: absolute;
+    left: 50%;
+    top: 200px;
 }
 #img-3{
-    position: relative;
-    left: 13%;
-    top: -60px;
+    position: absolute;
+    left: 5%;
+    top: 660px;
 }
 #img-4{
-    position: relative;
-    top: -60px;
-    left: 25%;
+    position: absolute;
+    left: 50%;
+    top: 760px;
 }
 .text-box{
     background-color: brown;
@@ -101,11 +108,11 @@ a:hover{
     box-sizing: border-box;
     border: 10px double coral;
     font-size: 20px;
-    position: relative;
-    left: 48%;
-    top: -220px;
+    position: absolute;
     line-height: 25px;
     letter-spacing: -1px;
+    left: 45%;
+    top: 1300px;
 }
 .review{
     background-color: brown;
@@ -117,11 +124,11 @@ a:hover{
     box-sizing: border-box;
     border: 10px double coral;
     font-size: 30px;
-    position: relative;
-    left: 5%;
-    top: -560px;
+    position: absolute;
     line-height: 30px;
     letter-spacing: -1px;
+    left: 2%;
+    top: 1300px;
 }
 .text-box:hover{
     border: 10px double beige
@@ -130,35 +137,36 @@ a:hover{
     border: 10px double beige;
 }
 #stars{
-    position: relative;
-    left: 23%;
+    position: absolute;
+    left: 20%;
+    top: 1670px;
 }
 #pot{
-    position: relative;
-    top: -1400px;
-    left: -10%;
+    position: absolute;
+    left: 50%;
+    top: -150px;
 }
 #shrimp{
-    position: relative;
-    top: -1380px;
-    left: -10%;
+    position: absolute;
+    left: 65%;
+    top: -50px;
 }
 #squig1{
-    position: relative;
-    top: -1000px;
-    left: 47%;
+    position: absolute;
+    left: 43%;
+    top: 500px;
 }
 #squig2{
-    position: relative;
-    top: -550px;
-    left: 26%;
+    position: absolute;
     rotate: 50deg;
+    left: 31%;
+    top: 1080px;
 }
 #spoon{
-    position: relative;
-    top: -660px;
-    left: 20%;
+    position: absolute;
     animation: spoon 2s infinite forwards;
+    left: 42%;
+    top: 1000px;
 }
 @keyframes spoon {
     0% {rotate: 0deg;}
@@ -166,7 +174,8 @@ a:hover{
     100% {rotate: 0deg;}
 }
 #leaf{
-    position: relative;
-    top: -1490px;
-    rotate: -70deg;
+    position: absolute;
+    left: 45%;
+    top: -40px;
+    rotate: -50deg;
 }
