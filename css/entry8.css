@@ -81,7 +81,7 @@ a:hover{
     padding: 50px;
     box-sizing: border-box;
     border: 5px solid lightpink;
-    font-size: 20px;
+    font-size: 25px;
     position: absolute;
     top: 600px;
     left: 50%;
@@ -120,6 +120,45 @@ a:hover{
 }
 .parent-div{
     position: relative;
+}
+#pasta{
+    position: absolute;
+    left: 55%;
+    top: -150px;
+    rotate: 15deg;
+    animation: pasta 3s infinite forwards;
+}
+@keyframes pasta {
+    0% {rotate: 15deg}
+    50% {rotate: 0deg}
+    100% {rotate: 15deg}
+}
+#bow{
+    position: absolute;
+    left: 84%;
+    top: 570px;
+    rotate: -10deg;
+}
+#fork{
+    position: absolute;
+    top: -30px;
+    left: 35%;
+    rotate: 160deg;
+}
+#stars{
+    position: absolute;
+    left: 30%;
+    top: 1000px;
+}
+#wine{
+    position: absolute;
+    top: 450px;
+    left: 2%;
+}
+#cheese{
+    position: absolute;
+    top: 400px;
+    left: 23%;
 }
 @media only screen and (max-width: 600px) {
     h2{
@@ -173,5 +212,46 @@ a:hover{
     #sticker-3{
         left: 79%;
         top: -200px;
+    }
+    #pasta{
+        width: 150px;
+        top: 300px;
+        left: 50%;
+    }
+    #cheese{
+        width: 110px;
+        left: 5%;
+    }
+    #wine{
+        left: 70%;
+        width: 130px;
+        top: 400px;
+    }
+    .review{
+        padding: 30px;
+        border-radius: 60px;
+        top: 850px
+
+    }
+    .text-box{
+        padding: 30px;
+        border-radius: 60px;
+    }
+    a{
+        left: -5%;
+        top: 1100px;
+    }
+    #prev-page{
+        top: 1170px;
+    }
+    #stars{
+        width: 400px;
+        top: 1080px;
+        left: 15%;
+    }
+    #bow{
+        width: 160px;
+        left: 75%;
+        top: 600px
     }
 }
