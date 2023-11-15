@@ -45,6 +45,9 @@ a{
     border-radius: 15px;
 }
 #prev-page{
+    top: 1120px;
+}
+#next-page{
     top: 1060px;
 }
 a:hover{
@@ -242,6 +245,9 @@ a:hover{
         top: 1100px;
     }
     #prev-page{
+        top: 1240px;
+    }
+    #next-page{
         top: 1170px;
     }
     #stars{
