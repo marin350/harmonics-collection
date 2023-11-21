@@ -37,7 +37,7 @@ a{
 a:hover{
     color:orangered;
 }
-.img-align{
+#img-align{
     position: absolute;
     top: -18%;
     left: 115%;
@@ -49,4 +49,41 @@ a:hover{
     bottom: 50%;
     width: 1150px;
     line-height: 75px; 
+}
+
+@media only screen and (max-width: 600px){
+    .heading{
+        font-size: 100px;
+        letter-spacing: -5px;
+        width: 500px;
+        line-height: 80px;
+    }
+    a{
+        font-size: 30px;
+        color: black;
+        margin: 30px;
+        letter-spacing: -3px;
+    }
+    .text-align{
+        margin: 30px;
+        position: static;
+        bottom: 50%;
+        width: 500px;
+        line-height: 50px; 
+        display: grid;
+    }
+    #img-align{
+
+        position: absolute;
+        top: 750px;
+        left: -5%;
+        display: grid;
+        width: 100px;
+        animation: pic-rotate 3s infinite forwards;
+    }
+    @keyframes pic-rotate {
+        0% {rotate: 2deg;}
+        50% {rotate: -2deg;}
+        100% {rotate: 2deg;}    
+    }
 }

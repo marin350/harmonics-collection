@@ -153,3 +153,67 @@ a:hover{
     50% {rotate: 10deg}
     100% {rotate: 0deg;}
 }
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 50px;
+        width: 70px;
+        line-height: 45px;
+    }
+    #sticker-1{
+        left: 77%;
+        top: -230px;
+    }
+    #sticker-2{
+         left: 1%;
+         top: -300px;
+    }
+    #sticker-3{
+         left: 79%;
+         top: -300px;
+    }
+    #img5{
+        width: 180px;
+        left: 40%;
+        top: -150px;
+    }
+    #img-1{
+        width: 250px;
+        top: -20px;
+    }
+    #img-2{
+        width: 250px;
+        top: 330px;
+        left: 50%;
+    }
+    #img4{
+        left: 37%;
+    }
+    .review{
+        font-size: 20px;
+        width: 400px;
+        line-height: 23px;
+        left: 0;
+        top: 950px;
+    }
+    .text-box{
+        font-size: 20px;
+        width: 400px;
+        line-height: 23px;
+        left: 0;
+        top: 650px;
+    }
+    #img3{
+        /* garlic */
+        left:7%;
+    }
+    a{
+        top: 1280px;
+    }
+    #next-page{
+        top: 1300px;
+    }
+    #prev-page{
+        top: 1320px;
+    }
+}

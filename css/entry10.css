@@ -1,0 +1,201 @@
+body{
+    background-image: url(../img/bbb.png);
+    background-size: 90%;
+    background-repeat: repeat;
+    background-color: #CEE6BD;
+    font-family: 'space grotesk';
+    font-weight: 400;
+}
+#sticker-1{
+    position: absolute;
+    rotate: 15deg;
+    left: 80%;
+    top: -240px;
+    z-index: 1;
+}
+#sticker-2{
+    position: absolute;
+    z-index: 2;
+    left: 70%;
+    top: -220px;
+}
+#sticker-3{
+    position: absolute;
+    left: 77%;
+    top: -260px;
+    z-index: 3;
+}
+.sticker-div{
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: -3px;
+    animation: header-color 2s infinite forwards;
+}
+hr{
+    border-top: 3px solid;
+    border-bottom: 0px;
+    color: orange;
+    width: 50%;
+}
+@keyframes header-color {
+    0% {color: black;}
+    30% {color: darkseagreen;}
+    70% {color: orange;}
+    100% {color: black;}
+}
+.parent-div{
+    position: relative;
+}
+#img-1{
+    position: absolute;
+    left: 8%;
+    top: -30px;
+}
+h2{
+    font-family: "Stalinist One";
+    font-size: 50px;
+    color: black;
+    margin-left: 5%;
+}
+.review{
+    position: absolute;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    width: 30%;
+    top: 250px;
+    font-size: 20px;
+    left: 55%;
+    top: 250px;
+    color: orange;
+}
+.text-box{
+    position: absolute;
+    left: 55%;
+    top: 50px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    font-size: 20px;
+    color: orange;
+}
+a{
+    background-color: black;
+    color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    top: 860px;
+    left: 8%;
+}
+a:hover{
+    background-color: orange;
+    color: black;
+    font-size: 18px;
+}
+#prev-page{
+    top: 880px;
+}
+/* #next-page{} */
+#stars{
+    position: absolute;
+    width: 450px;
+    left: 55%;
+    top: 420px;
+}
+#carrot{
+    position: absolute;
+    width: 200px;
+    rotate: 10deg;
+}
+#leaf{
+    position: absolute;
+    width: 200px;
+    rotate: 25deg;
+    left: 40%;
+    top: 350px;
+}
+#truck{
+    position: absolute;
+    width: 500px;  
+    top: 650px;
+    left: 100%;
+    animation: truck 6s infinite;
+}
+@keyframes truck{
+    from {left: 100%}
+    to {left: -40%}
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 30px;
+        line-height: 30px;
+        width: 80px;
+    }
+    .text-box{
+        font-size: 20px;
+        width: 80%;
+        line-height: 20px;
+        left: 5%;
+        top: 600px;
+    }
+    .review{
+        font-size: 20px;
+        width: 80%;
+        line-height: 20px;
+        left: 5%;
+        top: 800px;
+    }
+    a{
+        top: 1230px;
+    }
+    #prev-page{
+        top: 1250px;
+    }
+    #sticker-1{
+       left: 74%;
+       top: -240px;
+    }
+    #sticker-2{
+        left: 50%;
+        top: -120px;
+        rotate: 20deg;
+    }
+    #sticker-3{
+        left: 5%;
+        top: -230px;
+    }
+    #carrot{
+        width: 200px;
+        left: -8%;
+        rotate: 55deg;
+    }
+    #leaf{
+        left: 75%;
+        width: 130px;
+        top: 400px;
+    }
+    #truck{
+        position: absolute;
+        width: 500px;  
+        top: 1000px;
+        left: 100%;
+        animation: truck 3s infinite;
+    }
+    #stars{
+        top: 480px;
+        left: 3%;
+        width: 390px;
+    }
+    @keyframes truck{
+        from {left: 100%}
+        to {left: -100%}
+    }
+}

@@ -184,3 +184,54 @@ hr{
      50% {opacity: 1;}
      100% {opacity: 0;}
  }
+
+
+ @media only screen and (max-width: 600px) {
+    h2{
+        font-size: 50px;
+    }
+    #sticker-1{
+        left: 77%;
+        top: -150px;
+    }
+    #sticker-2{
+         left: 1%;
+         top: -225px;
+    }
+    #sticker-3{
+         left: 79%;
+         top: -200px;
+    }
+    .img-border{
+        left: 5%;
+        rotate: 0deg;
+        top: -80px;
+    }
+    .img-border:hover{
+        rotate: 0deg
+    }
+    .review{
+        font-size: 20px;
+        line-height: 20px;
+        left: 5%;
+        width: 400px;
+        top: 500px;
+    }
+    #text-border{
+        font-size: 20px;
+        line-height: 20px;
+        left: 5%;
+        width: 400px;
+        top: 630px;
+        top: 730px;
+    }
+    a{
+        top: 1050px
+    }
+    #nextpage{
+        top: 1070px;
+    }
+    #prevpage{
+        top: 1090px;
+    }
+}
