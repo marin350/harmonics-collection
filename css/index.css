@@ -28,19 +28,158 @@ p{
     font-size: 40px;
 }
 a{
-    font-size: 45px;
     color: black;
     margin: 30px;
     letter-spacing: -3px;
     line-height: 50px;
+    text-decoration: none;
 }
-a:hover{
-    color:orangered;
+#entry1{
+    background-color: blue;
+    color: beige;
+    font-family: "handjet";
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    width: 200px;
+    grid-column: 1/1;
+}
+#entry2{
+    background-color: brown;
+    color: beige;
+    font-family: "righteous";
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    width: 250px;
+    grid-column: 1/1;
+}
+#entry3{
+    background-color: darkred;
+    color: beige;
+    font-family: "fasthand";
+    padding: 5px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    grid-column: 1/1;
+    font-size: 40px;
+}
+#entry4{
+    background-color: coral;
+    color: darkred;
+    font-family:'Odibee Sans', cursive;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    width: 200px;
+    grid-column: 2/3;
+}
+#entry5{
+    background-color: darkslateblue;
+    font-size: 40px;
+    color: white;
+    font-family:"righteous";
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    width: 300px;
+    grid-column: 2/2;
+}
+#entry6{
+    background-color: orange;
+    color: darkred;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    width: 300px;
+    grid-column: 2/2;
+}
+#entry7{
+    background-color: cornflowerblue;
+    color: white;
+    font-family:"Edu TAS Beginner";
+    letter-spacing: -2px;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 300px;
+    grid-column: 3/3;
+}
+#entry8{
+    background-color: black;
+    color: lightpink;
+    font-family:'Voltaire';
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    width: 250px;
+    grid-column: 3/3;
+}
+#entry9{
+    background-color: orangered;
+    color: white;
+    font-family:"acme";
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    width: 250px;
+    grid-column: 3/3;
+}
+#entry10{
+    background-color: black;
+    color: orange;
+    font-family:"Stalinist One";
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 0px;
+    width: 400px;
+    grid-column: 2/2;
+}
+#entry1:hover{
+    background-color: darkblue;
+}
+#entry2:hover{
+    background-color: rgb(100, 23, 23);
+}
+#entry3:hover{
+    background-color: rgb(59, 4, 4);
+}
+#entry4:hover{
+    background-color: rgb(153, 76, 48);
+    color: coral;
+}
+#entry5:hover{
+    background-color: rgb(32, 28, 63);
+}
+#entry6:hover{
+    background-color: darkgoldenrod;
+}
+#entry7:hover{
+    background-color: rgb(63, 93, 149);
+}
+#entry8:hover{
+    background-color: rgb(75, 74, 74);
+}
+#entry9:hover{
+    background-color: rgb(170, 51, 8);
+}
+#entry10:hover{
+    background-color: rgb(75, 74, 74);
 }
 #img-align{
     position: absolute;
     top: -18%;
     left: 115%;
+    width: 15%;
     animation: pic-rotate 2s infinite forwards;
 }
 .text-align{
@@ -49,6 +188,9 @@ a:hover{
     bottom: 50%;
     width: 1150px;
     line-height: 75px; 
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-gap: 10px;
 }
 
 @media only screen and (max-width: 600px){
@@ -65,20 +207,22 @@ a:hover{
         letter-spacing: -3px;
     }
     .text-align{
-        margin: 30px;
+        margin: 20px;
+        margin-top: 40px;
         position: static;
         bottom: 50%;
         width: 500px;
         line-height: 50px; 
         display: grid;
+        grid-template-columns: 600px;
+        grid-gap: 20px;
     }
     #img-align{
-
         position: absolute;
-        top: 750px;
+        top: 970px;
         left: -5%;
         display: grid;
-        width: 100px;
+        width: 50px;
         animation: pic-rotate 3s infinite forwards;
     }
     @keyframes pic-rotate {
@@ -87,3 +231,47 @@ a:hover{
         100% {rotate: 2deg;}    
     }
 }
+
+@media only screen and (max-width: 900px){
+    .heading{
+        font-size: 90px;
+        left: -10%;
+        letter-spacing: -5px;
+        width: 500px;
+        line-height: 80px;
+    }
+    a{
+        font-size: 30px;
+        color: black;
+        margin: 30px;
+        letter-spacing: -3px;
+    }
+    .text-align{
+        margin: 20px;
+        margin-top: 40px;
+        position: relative;
+        bottom: 50%;
+        width: 500px;
+        line-height: 50px; 
+        display: grid;
+        grid-template-columns: 600px;
+        grid-gap: 20px;
+        left: -15%;
+    }
+    #img-align{
+        position: absolute;
+        top: 970px;
+        left: -5%;
+        height: 100px;
+        display: grid;
+        animation: pic-rotate 3s infinite forwards;
+    }
+    @keyframes pic-rotate {
+        0% {rotate: 2deg;}
+        50% {rotate: -2deg;}
+        100% {rotate: 2deg;}    
+    }
+}
+
+
+

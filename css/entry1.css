@@ -1,3 +1,4 @@
+/* add more window sizes for media responsive */
 body{
     background-image: url(../img/cdb.png);
     background-size: 90%;
@@ -56,6 +57,7 @@ a{
     padding: 10px;
     margin: 50px;
     border-radius: 15px;
+    text-decoration: none;
 }
 #next-page{
     top: 290px;
@@ -71,6 +73,21 @@ hr{
     border-bottom: 0;
     border-top: 4px solid darkblue;
     width: 50%;
+}
+#hotdogbutton{
+    background-color: blue;
+    border-radius: 20px;
+    color: beige;
+    padding: 10px;
+    position: absolute;
+    font-family: "handjet";
+    top: 170px;
+    left: 55%;
+    font-size: 20px;
+    cursor: pointer;
+}
+#hotdogbutton:hover{
+    background: darkblue;
 }
 .text-border{
     background-color: darkblue;
@@ -123,17 +140,11 @@ hr{
     left: 40%;
     top: 120px;
 }
-#hot-dog-1:hover{
-    opacity:0%
-}
-#hot-dog-2{
-    opacity: 0;
+#hotdog2{
     position: absolute;
     left: 40%;
-    top: 120px
-}
-#hot-dog-2:hover{
-    opacity: 100%;
+    top: 120px;
+    opacity: 0;
 }
 #stars{
     position: absolute;
@@ -188,50 +199,90 @@ hr{
 
  @media only screen and (max-width: 600px) {
     h2{
-        font-size: 50px;
+        font-size: 80px;
+        top: 50px;
+        left: -5%;
     }
     #sticker-1{
-        left: 77%;
-        top: -150px;
+        left: 68%;
+        top: -200px;
     }
     #sticker-2{
-         left: 1%;
-         top: -225px;
+         left: -10%;
+         top: -480px;
     }
     #sticker-3{
-         left: 79%;
-         top: -200px;
+         left: 55%;
+         top: -580px;
     }
-    .img-border{
-        left: 5%;
+    #img-border{
         rotate: 0deg;
         top: -80px;
+        width: 500px;
+        left: -5%;
+        top: -520px;
     }
-    .img-border:hover{
+    #img-border:hover{
         rotate: 0deg
     }
     .review{
         font-size: 20px;
         line-height: 20px;
-        left: 5%;
         width: 400px;
-        top: 500px;
+        top: 960px;
+        left: -10%;
     }
-    #text-border{
+    .text-border{
         font-size: 20px;
         line-height: 20px;
         left: 5%;
         width: 400px;
-        top: 630px;
-        top: 730px;
+        top: 760px;
+        left: -2%;
     }
     a{
-        top: 1050px
+        top: 240px;
+        left: -5%
     }
-    #nextpage{
-        top: 1070px;
+    #next-page{
+        top: 260px;
+        left: -5%;
     }
-    #prevpage{
-        top: 1090px;
+    #hot-dog-1{
+        width: 170px;
+        left: 30%;
+        top: 110px;
+    }
+    #hotdog2{
+        width: 170px;
+        left: 30%;
+        top: 110px;  
+    }
+    #stars{
+        top: 630px;
+        left: -2%;
+    }
+    #hotdogbutton{
+        top: 220px;
+        left: 52%;
+        width: 100px;
+        font-size: 15px;
+    }
+    #g1{
+        width: 100px;
+        left: 80%;
+        top: 1000px;
+        animation-duration: 5s;
+    }
+    @keyframes pac-ghost {
+        0% {top: 800px;}
+        50% {top: 1000px;}
+        100% {top:800px;}
+    }
+    #g2{
+        width: 100px;
+        top: 1300px;
     }
 }
+
+

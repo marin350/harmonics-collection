@@ -55,6 +55,7 @@ a{
     border-radius: 15px;
     left: 8%;
     top: 700px;
+    text-decoration: none;
 }
 #nextpage{
     top: 730px;
@@ -150,4 +151,59 @@ a:hover{
     0% {transform: scaleX(1);}
     50% {transform: scaleX(-1);}
     100% {transform: scaleX(1);}
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 50px;
+    }
+    #sticker-1{
+        left: 77%;
+        top: -150px;
+    }
+    #sticker-2{
+         left: 1%;
+         top: -225px;
+    }
+    #sticker-3{
+         left: 79%;
+         top: -200px;
+    }
+    .img-border{
+        left: 5%;
+        rotate: 0deg;
+        top: -80px;
+    }
+    .img-border:hover{
+        rotate: 0deg
+    }
+    .review{
+        font-size: 20px;
+        line-height: 20px;
+        left: 5%;
+        width: 400px;
+        top: 500px;
+    }
+    #text-border{
+        font-size: 20px;
+        line-height: 20px;
+        left: 5%;
+        width: 400px;
+        top: 630px;
+        top: 730px;
+    }
+    a{
+        top: 1050px
+    }
+    #nextpage{
+        top: 1070px;
+    }
+    #prevpage{
+        top: 1090px;
+    }
+    #dog{
+        top: 1030px;
+        width: 190px;
+        left: 60%;
+    }
 }

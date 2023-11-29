@@ -43,6 +43,7 @@ a{
     background-color: lightpink;
     padding: 10px;
     border-radius: 15px;
+    text-decoration: none;
 }
 #prev-page{
     top: 1120px;
@@ -185,25 +186,6 @@ a:hover{
         left: 18%;
         top: 250px;
     }
-    .text-box{
-        font-size: 20px;
-        width: 80%;
-        line-height: 20px;
-        left: 5%;
-    }
-    .review{
-        font-size: 20px;
-        width: 80%;
-        line-height: 20px;
-        left: 5%;
-        top: 900px;
-    }
-    a{
-        top: 1000px;
-    }
-    .prev-page{
-        left: 80%;
-    }
     #sticker-1{
        left: 77%;
        top: -130px;
@@ -231,17 +213,23 @@ a:hover{
         top: 400px;
     }
     .review{
-        padding: 30px;
+        padding: 15px;
         border-radius: 60px;
-        top: 850px
-
+        top: 850px;
+        width: 400px;
+        font-size: 20px;
+        line-height: 20px;
     }
     .text-box{
-        padding: 30px;
+        padding: 15px;
         border-radius: 60px;
+        width: 400px;
+        left: 5%;
+        font-size: 20px;
+        line-height: 20px;
     }
     a{
-        left: -5%;
+        left: -10%;
         top: 1100px;
     }
     #prev-page{
@@ -253,11 +241,12 @@ a:hover{
     #stars{
         width: 400px;
         top: 1080px;
-        left: 15%;
+        left: 10%;
     }
     #bow{
         width: 160px;
-        left: 75%;
-        top: 600px
+        left: 68%;
+        top: 600px;
+        rotate: 20deg;
     }
 }

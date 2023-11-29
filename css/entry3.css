@@ -42,6 +42,7 @@ a{
     padding: 10px;
     border-radius: 15px;
     margin: 10px;
+    text-decoration: none;
 }
 #nextpage{
     top: 830px;
@@ -164,4 +165,82 @@ a:hover{
     0% {border: 5px dotted darkred;}
     50% {border: 5px dotted darkorange}
     100% {border: 5px dotted darkred;}
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 80px;
+    }
+    #sticker-1{
+        left: 73%;
+        top: -280px;
+    }
+    #sticker-2{
+         left: 0%;
+         top: -250px;
+    }
+    #sticker-3{
+         left: 75%;
+         top: -70px;
+    }
+    #img-1{
+    width: 100px;
+    top: 0;
+    }
+    #img-2{
+        width: 100px;
+        top: 450px;
+        left: 5%;
+    }
+    #ruby1{
+        width: 100px;
+        left: 50%; 
+        top: -130px;   
+    }
+    #ruby2{
+        width: 130px;
+        top: 30px;
+        left: -2%;
+    }
+    .text-box{
+        font-size: 20px;
+        width: 70%;
+        line-height: 20px;
+        top: 1100px;
+        left: 5%;
+    }
+    .review{
+        font-size: 20px;
+        width: 70%;
+        line-height: 20px;
+        top: 1350px;
+        left: 5%
+    }
+    #stars{
+        width: 450px;
+        top: 950px;
+        left: 10%;
+    }
+    a{
+        top: 1400px;
+        left: 5%;
+    }
+    #nextpage{
+        top: 1430px;
+    }
+    #prevpage{
+        top: 1450px;
+    }   
+    #burger{
+        top: 1250px;
+        width: 160px;
+        left: 66%;
+        z-index: 1;
+    }
+    #drink{
+        width: 150px;
+        top: 1560px;
+        left: 60%;
+    }
+
 }

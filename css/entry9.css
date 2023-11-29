@@ -90,8 +90,9 @@ a{
     padding: 10px;
     font-size: 18px;
     position: relative;
-    top: 500px;
+    top: 600px;
     left: 5%;
+    text-decoration: none;
 }
 a:hover{
     background-color: orange;
@@ -99,9 +100,37 @@ a:hover{
     font-size: 18px;
 }
 #prev-page{
-    top: 520px;
+    top: 640px;
 }
-/* #next-page{ */
+#next-page{
+    top: 620px;
+}
+
+#lime{
+    position: absolute;
+    width: 200px;
+    top: 250px;
+    left: 45%;
+}
+#hat{
+    position: absolute;
+    width: 500px;
+    top: 470px;
+    left: 45%;
+    rotate: -20deg;
+}
+#leaf{
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    left: 80%;
+}
+#stars{
+    position: absolute;
+    width: 650px;
+    top: -150px;
+    left: 36%;
+}
 
 @media only screen and (max-width: 600px) {
     h2{
@@ -109,32 +138,55 @@ a:hover{
     }
     #sticker-1{
         left: 77%;
-        top: -130px;
-        width: 30px;
+        top: -350px;
      }
      #sticker-2{
          left: 1%;
-         top: -255px;
+         top: -260px;
+         rotate: -50deg;
     }
      #sticker-3{
-         left: 79%;
-         top: -290px;
+         left: 5%;
+         top: -310px;
     }
     #img-1{
         width: 100px;
         left: 3%;
     }
     .text-box{
-        top: 420px;
+        top: 600px;
     }
     .review{
-        top: 640px;
+        top: 820px;
         width: 80%;
     }
     a{
-        top: 900px;
+        top: 1100px;
     }
     #prev-page{
-        top: 930px;
+        top: 1140px;
+    }
+    #next-page{
+        top: 1120px;
+    }
+    #lime{
+        left: -1%;
+        top: 300px;
+        width: 150px;
+        rotate: -15deg;
+    }
+    #leaf{
+        width: 150px;
+        left: 75%;
+    }
+    #stars{
+        top: 450px;
+        left: 8%;
+        width: 500px;
+    }
+    #hat{
+        top: 1050px;
+        left: 35%;
+        width: 340px;
     }
 }

@@ -93,6 +93,7 @@ a{
     position: relative;
     top: 860px;
     left: 8%;
+    text-decoration: none;
 }
 a:hover{
     background-color: orange;

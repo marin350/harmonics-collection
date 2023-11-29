@@ -100,6 +100,7 @@ a{
     background-color: cornflowerblue;
     padding: 15px;
     border-radius: 15px;
+    text-decoration: none;
 }
 #prev-page{
     top: 580px;
@@ -110,6 +111,22 @@ a{
 a:hover{
     color: beige;
     background-color: darkblue;
+}
+#button1{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: beige;
+    padding: 10px;
+    position: absolute;
+    font-family: "Edu TAS Beginner";
+    top: 1200px;
+    left: 9%;
+    font-size: 25px;
+    cursor: pointer;
+    border: 0;
+}
+#button1:hover{
+    background-color: darkslateblue;
 }
 #img-1s{
     position: absolute;
@@ -124,7 +141,6 @@ a:hover{
     position: absolute;
     left: -2%;
     top: 770px;
-    animation: fish-2 6s infinite forwards;
 }
 #img-4{
     position: absolute;
@@ -202,7 +218,7 @@ a:hover{
     #star{
         width: 400px;
         left: 5%;
-        top: 1000px;
+        top: 1050px;
     }
     a{
         top: 700px;

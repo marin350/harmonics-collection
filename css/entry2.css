@@ -45,21 +45,22 @@ h2{
 }
 a{
     color: brown;
-    margin: 120px;
-    font-size: 20px;
-    position: relative;
-    bottom: 400px;
+    border: 3px dotted brown;
     background-color: beige;
+    border-radius: 15px;
+    position:relative;
+    font-size: 20px;
     padding: 15px;
     margin: 120px;
-    border-radius: 15px;
-    top: 770px;
+    top: 800px;
+    text-decoration: none;
+   
 }
 #next-page{
-    top: 800px;
+    top: 830px;
 }
 #prev-page{
-   top: 830px;
+   top: 860px;
 }
 a:hover{
     color: beige;
@@ -113,6 +114,30 @@ a:hover{
     rotate: -5deg;
     top: -300px;
     left: 5%;
+    opacity: 100;
+}
+#emptycoke{
+    position: absolute;
+    rotate: -5deg;
+    top: -290px;
+    left: 5%;
+    opacity: 0;
+}
+#button{
+    background-color: brown;
+    border-radius: 20px;
+    color: beige;
+    padding: 10px;
+    position: absolute;
+    font-family: "righteous";
+    top: 170px;
+    left: 18%;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+}
+#button:hover{
+    background-color: maroon;
 }
 #candle{
     position: absolute;
@@ -163,4 +188,81 @@ a:hover{
 }
 .sticker-div{
     position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 50px;
+        top: 50px;
+    }
+    #sticker-1{
+        left: 73%;
+        top: -280px;
+    }
+    #sticker-2{
+         left: 0%;
+         top:- 200px;
+    }
+    #sticker-3{
+         left: 5%;
+         top: -140px;
+    }
+    .text-box{
+        font-size: 18px;
+        width: 70%;
+        left: -5% ;
+    }
+    .review{
+        font-size: 18px;
+        line-height: 20px;
+        width: 70%;
+        top: 560px;
+        left: 0%;
+    }
+    #img-1{
+        width: 260px;
+        left: 2%;
+    }
+    #img-2{
+        width: 260px;
+    }
+    #button{
+        width: 130px;
+        font-size: 15px;
+        top: 800px;
+        left: 75%;
+    }
+    #candle{
+        width: 130px;
+        left: 75%;
+        top: 600px;
+    }
+    #candle2{
+        width: 130px;
+        left: 75%;
+        top: 600px;
+    }
+    #coke{
+        width: 150px;
+        left: 75%;
+        top: 250px;
+    }
+    #emptycoke{
+        width: 120px;
+        left: 75%;
+        top: 250px;
+    }
+    #stars{
+        top: 760px;
+    }
+    a{
+        left: -15%;
+        top: 700px;
+    }
+    #next-page{
+        top: 730px;
+    }
+    #prev-page{
+        top: 760px;
+    }
 }
