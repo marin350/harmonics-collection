@@ -143,7 +143,6 @@ a:hover{
      #sticker-2{
          left: 1%;
          top: -260px;
-         rotate: -50deg;
     }
      #sticker-3{
          left: 5%;
@@ -188,5 +187,90 @@ a:hover{
         top: 1050px;
         left: 35%;
         width: 340px;
+    }
+}
+
+@media only screen and (max-width: 932px) {
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    h2{
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+        width: 300px;
+        line-height: 50px;
+    }
+    #sticker-1{
+        left: 70%;
+        top: -250px;
+     }
+     #sticker-2{
+         left: -2%;
+         top: -250px;
+     }
+     #sticker-3{
+         left: 50%;
+         top: -180px;
+    }
+    #img-1{
+        width: 100px;
+        left: 3%;
+        top: 5px;
+    }
+    .text-box{
+        top: 370px;
+        left: 0;
+        width: 40%;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px;
+    }
+    .review{
+        top: 370px;
+        left: 50%;
+        width: 40%;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px;
+    }
+    a{
+        top: 600px;
+    }
+    #prev-page{
+        top: 1140px;
+        display: none;
+    }
+    #next-page{
+        top: 1120px;
+        display: none;
+    }
+    #lime{
+        left: -1%;
+        top: 210px;
+        width: 150px;
+        rotate: -15deg;
+    }
+    img{
+        max-width: 400px;
+    }
+    #leaf{
+        width: 150px;
+        left: 70%;
+        top: 210px;
+    }
+    #stars{
+        top: -40px;
+        left: 25%;
+        width: 330px;
+    }
+    #hat{
+        top: 500px;
+        left: 35%;
+        width: 200px;
+        z-index: 1;
     }
 }

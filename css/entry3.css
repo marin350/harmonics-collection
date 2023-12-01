@@ -244,3 +244,92 @@ a:hover{
     }
 
 }
+
+@media only screen and (max-width: 932px) {
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    h2{
+        font-size: 100px;
+        top: 35px;
+    }
+    #sticker-1{
+        left: 73%;
+        top: -100;
+    }
+    #sticker-2{
+         left: -2%;
+         top: -230px;
+    }
+    #sticker-3{
+         left: 68%;
+         top: -90px;
+    }
+    #img-1{
+        top: 20px;     
+    }
+    #img-2{
+        top: 320px;
+        left: 5%;
+    }
+    #ruby1{
+        width: 100px;
+        left: 80%; 
+        top: 320px;   
+    }
+    #ruby2{
+        width: 130px;
+        top: 30px;
+        left: -2%;
+    }
+    img{
+        max-width: 400px;
+    }
+    .text-box{
+        font-size: 13px;
+        width: 45%;
+        line-height: 13px;
+        top: 770px;
+        left: 5%;
+        padding: 10px;
+    }
+    .review{
+        font-size: 13px;
+        width: 45%;
+        line-height: 13px;
+        top: 900px;
+        left: 50%;
+        padding: 10px;
+    }
+    #stars{
+        width: 350px;
+        top: 650px;
+        left: 10%;
+    }
+    a{
+        top: 1000px;
+        left: 5%;
+    }
+    #nextpage{
+        top: 1020px;
+        display: none;
+    }
+    #prevpage{
+        top: 1040px;
+        display: none;
+    }   
+    #burger{
+        top: 750px;
+        width: 160px;
+        left: 60%;
+        z-index: 1;
+    }
+    #drink{
+        width: 100px;
+        top: 930px;
+        left: 10%;
+    }
+}

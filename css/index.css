@@ -175,11 +175,10 @@ a{
 #entry10:hover{
     background-color: rgb(75, 74, 74);
 }
-#img-align{
+img{
     position: absolute;
     top: -18%;
     left: 115%;
-    width: 15%;
     animation: pic-rotate 2s infinite forwards;
 }
 .text-align{
@@ -217,13 +216,14 @@ a{
         grid-template-columns: 600px;
         grid-gap: 20px;
     }
-    #img-align{
+    img{
         position: absolute;
         top: 970px;
         left: -5%;
         display: grid;
-        width: 50px;
-        animation: pic-rotate 3s infinite forwards;
+        animation: pic-rotate 3s infinite forwards; 
+        max-width: 100%;  
+        height: auto; 
     }
     @keyframes pic-rotate {
         0% {rotate: 2deg;}
@@ -231,47 +231,58 @@ a{
         100% {rotate: 2deg;}    
     }
 }
-
-@media only screen and (max-width: 900px){
-    .heading{
-        font-size: 90px;
-        left: -10%;
-        letter-spacing: -5px;
-        width: 500px;
-        line-height: 80px;
+@media only screen and (max-width: 600px){
+    img{
+        width: 400px;
+        left: 5%;
+        top: 630px;
     }
-    a{
-        font-size: 30px;
-        color: black;
-        margin: 30px;
-        letter-spacing: -3px;
+    .heading{
+        font-size: 100px;
+        top: 0;
     }
     .text-align{
-        margin: 20px;
-        margin-top: 40px;
-        position: relative;
-        bottom: 50%;
-        width: 500px;
-        line-height: 50px; 
-        display: grid;
-        grid-template-columns: 600px;
-        grid-gap: 20px;
-        left: -15%;
+        grid-template-columns: 235px 300px;
     }
-    #img-align{
-        position: absolute;
-        top: 970px;
-        left: -5%;
-        height: 100px;
-        display: grid;
-        animation: pic-rotate 3s infinite forwards;
+    #entry1{
+        grid-column: 1/1;
+        font-size: 25px;
     }
-    @keyframes pic-rotate {
-        0% {rotate: 2deg;}
-        50% {rotate: -2deg;}
-        100% {rotate: 2deg;}    
+    #entry2{
+        grid-column: 1/1;
+        font-size: 25px;
     }
+    #entry3{
+        grid-column: 1/1;
+        font-size: 25px;
+    }
+    #entry4{
+        grid-column: 1/1;
+        font-size: 25px;
+    }
+    #entry5{
+        grid-column: 1/1;
+        font-size: 25px;
+    }
+    #entry6{
+        grid-column: 2/2;
+        font-size: 18px;
+    }
+    #entry7{
+        grid-column: 2/2;
+        font-size: 20px;
+    }
+    #entry8{
+        grid-column: 2/2;
+        font-size: 25px;
+    }
+    #entry9{
+        grid-column: 2/2;
+        font-size: 25px;
+    }
+    #entry10{
+        grid-column: 2/2;
+        font-size: 13px;
+    }
+
 }
-
-
-

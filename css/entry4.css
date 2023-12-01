@@ -279,3 +279,115 @@ a:hover{
         top: 1440px;
     }
 }
+
+@media only screen and (max-width: 932px) {
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    h2{
+        font-size: 60px;
+        top: 30px;
+        left: 0%
+    }
+    #sticker-1{
+        left: 73%;
+        top: -200px;
+    }
+    #sticker-2{
+         left: -5%;
+         top: -170px;
+    }
+    #sticker-3{
+         left: 53%;
+         top: -100px;
+    }
+    #img-1{
+        width: 200px;
+    }
+    #img-2{
+        width: 200px;
+        top: 0;
+        left: 54%;
+    }
+    #img-3{
+        width: 200px;
+        top: 250px;
+    }
+    #img-4{
+        width: 200px;
+        top: 260px;
+        left: 54%;
+    }
+    #pot{
+        width: 150px;
+        left: -1%;
+        top: 430px;
+        rotate: 30deg;
+    }
+    #shrimp{
+        width: 150px;
+        top: 550px;
+        left: 68%;
+    }
+    #leaf{
+        width: 150px;
+        top: 140px;
+        left: 65%;
+        rotate: 90deg;
+    }
+    #squig1{
+        width: 100px;
+        left: 40%;
+        top: 170px;
+    }
+    #squig2{
+        width: 100px;
+        left: 80%;
+        top: 430px;
+    }
+    #spoon{
+        width: 150px;
+        top: 350px;
+        left: 30%;
+    }
+    .text-box{
+        width: 60%;
+        font-size: 15px;
+        line-height: 16px;
+        border-radius: 90px;
+        padding: 25px;
+        top: 500px;
+        left: 0;
+    }
+    .review{
+        width: 60%;
+        font-size: 15px;
+        line-height: 16px;
+        border-radius: 90px;
+        padding: 25px;
+        top: 750px;
+        left: 0%;
+    }
+    #stars{
+        top: 800px;
+        left: 47%;
+        width: 330px;
+        rotate: 90deg
+    }
+    a{
+        top: 1010px;
+        left: -20%;
+    }
+    #nextpage{
+        top: 1060px;
+        display: none;
+    }
+    #prevpage{
+        top: 1060px;
+        display: none;
+    }
+}
+

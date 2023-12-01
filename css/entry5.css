@@ -207,3 +207,83 @@ a:hover{
         left: 60%;
     }
 }
+
+@media only screen and (max-width: 932px) {
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    h2{
+        font-size: 50px;
+        top: 20px;
+    }
+    #sticker-1{
+        left: 74%;
+        top: -220px;
+        width: 150px;
+    }
+    #sticker-2{
+         left: -2%;
+         top: -210px;
+         width: 150px;
+    }
+    #sticker-3{
+         left: 56%;
+         top: -150px;
+         width: 150px;
+    }
+    .img-border{
+        left: 5%;
+        rotate: 0deg;
+        top: -50px;
+    }
+    img{
+        max-width: 370px;
+    }
+    .img-border:hover{
+        rotate: 0deg
+    }
+    .review{
+        font-size: 15px;
+        line-height: 15px;
+        left: 5%;
+        width: 40%;
+        top: 630px;
+        padding: 10px;
+    }
+    #text-border{
+        font-size: 15px;
+        line-height: 15px;
+        left: 5%;
+        width: 40%;
+        top: 400px;
+        padding: 10px;
+    }
+    a{
+        top: 880px;
+    }
+    #nextpage{
+        top: 1070px;
+        display: none;
+    }
+    #prevpage{
+        top: 1090px;
+        display: none;
+    }
+    #dog{
+        top: 420px;
+        width: 190px;
+        left: 60%;
+    }
+    #stars{
+        top: 300px;
+        left: 5%;
+    }
+    #stars2{
+        top: 300px;
+        left: 5%;
+    }
+}
+

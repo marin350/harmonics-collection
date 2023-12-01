@@ -174,9 +174,13 @@ a:hover{
         top: -230px;
     }
     #carrot{
-        width: 200px;
+        max-width: 140px;
         left: -8%;
+        top: 50px;
         rotate: 55deg;
+    }
+    #img-1{
+        top: 60px;
     }
     #leaf{
         left: 75%;
@@ -194,6 +198,85 @@ a:hover{
         top: 480px;
         left: 3%;
         width: 390px;
+    }
+    @keyframes truck{
+        from {left: 100%}
+        to {left: -100%}
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    h2{
+        font-size: 30px;
+        line-height: 30px;
+        width: 80px;
+        top: 70px;
+        position: relative;
+    }
+    .text-box{
+        font-size: 15px;
+        width: 35%;
+        line-height: 15px;
+        left: 5%;
+        top: 460px;
+    }
+    .review{
+        font-size: 15px;
+        width: 35%;
+        line-height: 15px;
+        left: 55%;
+        top: 460px;
+    }
+    img{
+        max-width: 350px;
+    }
+    a{
+        top: 860px;
+        left: 3%;
+    }
+    #prev-page{
+        top: 1250px;
+        display: none;
+    }
+    #sticker-1{
+        left: 70%;
+        top: -200px;
+    }
+    #sticker-2{
+         left: -2%;
+         top: -190px;
+    }
+    #sticker-3{
+         left: 50%;
+         top: -130px;
+    }
+    #carrot{
+        width: 200px;
+        left: -8%;
+        rotate: 55deg;
+    }
+    #leaf{
+        left: 75%;
+        width: 100px;
+        top: 300px;
+    }
+    #truck{
+        position: absolute;
+        width: 500px;  
+        top: 700px;
+        left: 100%;
+        animation: truck 3s infinite;
+    }
+    #stars{
+        top: 350px;
+        left: 3%;
+        max-width: 300px;
     }
     @keyframes truck{
         from {left: 100%}

@@ -218,3 +218,82 @@ a:hover{
         top: 1320px;
     }
 }
+
+@media only screen and (max-width: 932px) {
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    h2{
+        font-size: 50px;
+        width: 70px;
+        line-height: 45px;
+    }
+    #sticker-1{
+        left: 73%;
+        top: -300px;
+    }
+    #sticker-2{
+         left: -5%;
+         top: -280px;
+    }
+    #sticker-3{
+         left: 55%;
+         top: -200px;
+    }
+    #img5{
+        width: 140px;
+        left: 53%;
+        top: -100px;
+        /* pot */
+    }
+    #img-1{
+        width: 150px;
+        top: -20px;
+    }
+    #img-2{
+        width: 150px;
+        top: -10px;
+        left: 50%;
+    }
+    #img4{
+        left: 55%;
+        top: 50px;
+        width: 250px;
+        rotate: 20deg;
+        /* lassi */
+    }
+    .review{
+        font-size: 15px;
+        width: 40%;
+        line-height: 15px;
+        left: 40%;
+        top: 200px;
+    }
+    .text-box{
+        font-size: 15px;
+        width: 40%;
+        line-height: 15px;
+        left: -7%;
+        top: 200px;
+    }
+    #img3{
+        /* garlic */
+        left: 4%;
+        width: 100px;
+        top: 130px;
+    }
+    a{
+        top: 600px;
+    }
+    #next-page{
+        top: 1300px;
+        display: none;
+    }
+    #prev-page{
+        top: 1320px;
+        display: none;
+    }
+}

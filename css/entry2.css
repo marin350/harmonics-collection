@@ -266,3 +266,94 @@ a:hover{
         top: 760px;
     }
 }
+
+
+@media only screen and (max-width: 932px) {
+    h2{
+        font-size: 50px;
+        top: 50px;
+    }
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    #sticker-1{
+        left: 73%;
+        top: -250px;
+    }
+    #sticker-2{
+         left: 0%;
+         top:- 200px;
+    }
+    #sticker-3{
+         left: 5%;
+         top: -140px;
+    }
+    .text-box{
+        font-size: 10px;
+        padding: 10px;
+        width: 50%;
+        left: -10% ;
+        top: 150px;
+    }
+    .review{
+        font-size: 10px;
+        padding: 10px;
+        width: 50%;
+        left: -3% ;
+        top: 350px;
+    }
+    #img-1{
+        width: 200px;
+        left: 0%;
+    }
+    #img-2{
+        width: 200px;
+        left: 52%;
+    }
+    #button{
+        width: 130px;
+        font-size: 15px;
+        top: 700px;
+        left: 65%;
+    }
+    #candle{
+        width: 130px;
+        left: 65%;
+        top: 520px;
+    }
+    #candle2{
+        width: 130px;
+        left: 65%;
+        top: 520px;
+    }
+    #coke{
+        width: 150px;
+        left: 65%;
+        top: 180px;
+    }
+    #emptycoke{
+        width: 150px;
+        left: 65%;
+        top: 180px;
+    }
+    #stars{
+        top: -150px;
+        left: 25%;
+        width: 200px;
+    }
+    a{
+        left: -25%;
+        top: 350px;
+    }
+    #next-page{
+        top: 380px;
+        display: none;
+    }
+    #prev-page{
+        top: 410px;
+        display: none;
+    }
+}

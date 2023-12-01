@@ -285,4 +285,106 @@ hr{
     }
 }
 
+@media only screen and (max-width: 932px) {
+    h2{
+        font-size: 80px;
+        left: -10%;
+        top: 20px;
+    }
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    #sticker-1{
+        left: 61%;
+        top: -230px;
+    }
+    #sticker-2{
+         left: -20%;
+         top: -480px;
+    }
+    #sticker-3{
+         left: 40%;
+         top: -570px;
+    }
+    #img-border{
+        rotate: 0deg;
+        top: 0px;
+        width: 400px;
+        left: -10%;
+        top: -550px;
+    }
+    .review{
+        font-size: 12px;
+        line-height: 12px;
+        width: 200px;
+        top: 770px;
+        left: 33%;
+        padding: 10px;
+    }
+    .text-border{
+        font-size: 12px;
+        line-height: 12px;
+        width: 200px;
+        left: -10%;
+        top: 660px;
+        left: -5%;
+        padding: 10px;
+    }
+    a{
+        top: -80px;
+        left: -10%;
+    }
+    #next-page{
+        top: -70px;
+        left: -10%;
+        display: none;
+    }
+    #hot-dog-1{
+        width: 200px;
+        left: -5%;
+        top: 510px;  
+    }
+    #hotdog2{
+        width: 200px;
+        left: -5%;
+        top: 510px;  
+    }
+    #stars{
+        top: 600px;
+        left: 30%;
+        width: 300px;
+    }
+    #hotdogbutton{
+        top: 520px;
+        left: 25%;
+        width: 150px;
+        font-size: 15px;
+    }
+    #g1{
+        width: 100px;
+        left: 78%;
+        top: 1000px;
+        animation-duration: 5s;
+    }
+    @keyframes pac-ghost {
+        0% {top: 680px;}
+        50% {top: 750px;}
+        100% {top:680px;}
+    }
+    #g2{
+        width: 100px;
+        top: 870px;
+    }
+    @keyframes she-ghost {
+        0% {left: 2%;}
+        50% {left: 25%;}
+        100% {left: 2%;}
+    }
+}
+
+
+
 
