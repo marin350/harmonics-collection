@@ -341,8 +341,8 @@ a:hover{
     }
     #stars{
         top: -150px;
-        left: 25%;
-        width: 200px;
+        left: 35%;
+        width: 150px;
     }
     a{
         left: -25%;
@@ -350,10 +350,8 @@ a:hover{
     }
     #next-page{
         top: 380px;
-        display: none;
     }
     #prev-page{
         top: 410px;
-        display: none;
     }
 }

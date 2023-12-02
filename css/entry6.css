@@ -289,11 +289,9 @@ a:hover{
         top: 600px;
     }
     #next-page{
-        top: 1300px;
-        display: none;
+        top: 620px;
     }
     #prev-page{
-        top: 1320px;
-        display: none;
+        top: 640px;
     }
 }

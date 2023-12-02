@@ -241,12 +241,10 @@ a:hover{
         top: 600px;
     }
     #prev-page{
-        top: 1140px;
-        display: none;
+        top: 640px;
     }
     #next-page{
-        top: 1120px;
-        display: none;
+        top: 620px;
     }
     #lime{
         left: -1%;

@@ -265,12 +265,10 @@ a:hover{
         top: 880px;
     }
     #nextpage{
-        top: 1070px;
-        display: none;
+        top: 900px;
     }
     #prevpage{
-        top: 1090px;
-        display: none;
+        top: 920px;
     }
     #dog{
         top: 420px;

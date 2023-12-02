@@ -382,12 +382,10 @@ a:hover{
         left: -20%;
     }
     #nextpage{
-        top: 1060px;
-        display: none;
+        top: 1030px;
     }
     #prevpage{
-        top: 1060px;
-        display: none;
+        top: 1050px;
     }
 }
 

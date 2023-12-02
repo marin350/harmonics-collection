@@ -315,12 +315,10 @@ a:hover{
         left: 5%;
     }
     #next-page{
-        top: 730px;
-        display: none;
+        top: 580px;
     }
     #prev-page{
-        top: 760px;
-        display: none;
+        top: 600px;
     }
     #button1{
         width: 100px;

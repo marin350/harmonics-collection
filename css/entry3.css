@@ -310,16 +310,14 @@ a:hover{
         left: 10%;
     }
     a{
-        top: 1000px;
+        top: 970px;
         left: 5%;
     }
     #nextpage{
-        top: 1020px;
-        display: none;
+        top: 990px;
     }
     #prevpage{
-        top: 1040px;
-        display: none;
+        top: 1010px;
     }   
     #burger{
         top: 750px;

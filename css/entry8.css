@@ -331,12 +331,10 @@ a:hover{
         top: 760px;
     }
     #prev-page{
-        top: 1240px;
-        display: none;
+        top: 880px;
     }
     #next-page{
-        top: 1170px;
-        display: none;
+        top: 820px;
     }
     #stars{
         width: 400px;
