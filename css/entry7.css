@@ -242,6 +242,7 @@ a:hover{
         font-size: 40px;
         width: 180px;
         top: 50px;
+        left: 4%;
         line-height: 40px;
     }
     #sticker-1{
@@ -260,43 +261,43 @@ a:hover{
          width: 150px;
     }
     .text-box{
-        width: 40%;
-        top: 250px;
+        width: 46%;
+        top: 220px;
         font-size: 15px;
-        line-height: 20px;
+        line-height: 15px;
         padding: 15px;
-        left: -15%;
+        left: -22%;
     }
     .review{
-        width: 40%;
-        top: 250px;
+        width: 46%;
+        top: 220px;
+        left: 28%;
         font-size: 15px;
-        line-height: 20px;
+        line-height: 15px;
         padding: 15px;
-        left: 30%;  
     }
     #img-1{
         top: 20px;
     }
     #img-1s{
-        width: 120px;
+        width: 90px;
         top: -10px;
-        left: 65%;
+        left: 69%;
         z-index: 1;
         rotate: 45deg;
     }
     img{
-        max-width: 350px;
+        max-width: 320px;
     }
     #img-2{
-        width: 150px;
-        left: 54%;
-        top: 200px;
+        width: 100px;
+        left: 62%;
+        top: 180px;
         z-index: 1;
     }
     #img-3{
         width: 150px;
-        top: 550px;
+        top: 480px;
         left: -15%;
     }
     #img-4{
@@ -308,22 +309,24 @@ a:hover{
     #star{
         width: 400px;
         left: -5%;
-        top: 670px;
+        top: 570px;
     }
     a{
-        top: 560px;
+        top: 460px;
         left: 5%;
+        font-size: 15px;
+        padding: 10px;
     }
     #next-page{
-        top: 580px;
+        top: 470px;
     }
     #prev-page{
-        top: 600px;
+        top: 480px;
     }
     #button1{
         width: 100px;
         font-size: 13px;
-        top: 850px;
+        top: 770px;
         left: 3%;
     }
 }

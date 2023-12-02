@@ -205,7 +205,7 @@ a:hover{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 932px) {
     h1{
         font-size: 30px
     }
@@ -224,31 +224,33 @@ a:hover{
         width: 35%;
         line-height: 15px;
         left: 5%;
-        top: 460px;
+        top: 420px;
     }
     .review{
         font-size: 15px;
         width: 35%;
         line-height: 15px;
         left: 55%;
-        top: 460px;
+        top: 420px;
     }
     img{
-        max-width: 350px;
+        max-width: 320px;
     }
     a{
-        top: 860px;
+        top: 800px;
+        font-size: 15px;
+        line-height: 10px;
         left: 3%;
     }
     #prev-page{
-        top: 880px;
+        top: 810px;
     }
     #sticker-1{
         left: 70%;
         top: -200px;
     }
     #sticker-2{
-         left: -2%;
+         left: -4%;
          top: -190px;
     }
     #sticker-3{
@@ -262,20 +264,20 @@ a:hover{
     }
     #leaf{
         left: 75%;
-        width: 100px;
+        width: 80px;
         top: 300px;
     }
     #truck{
         position: absolute;
         width: 500px;  
-        top: 700px;
+        top: 650px;
         left: 100%;
         animation: truck 3s infinite;
     }
     #stars{
-        top: 350px;
+        top: 320px;
         left: 3%;
-        max-width: 300px;
+        max-width: 260px;
     }
     @keyframes truck{
         from {left: 100%}

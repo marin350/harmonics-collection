@@ -229,6 +229,7 @@ a:hover{
     h2{
         font-size: 50px;
         width: 70px;
+        left: 2%;
         line-height: 45px;
     }
     #sticker-1{
@@ -240,7 +241,7 @@ a:hover{
          top: -280px;
     }
     #sticker-3{
-         left: 55%;
+         left: 53%;
          top: -200px;
     }
     #img5{
@@ -252,6 +253,7 @@ a:hover{
     #img-1{
         width: 150px;
         top: -20px;
+        left: 5%;
     }
     #img-2{
         width: 150px;
@@ -267,31 +269,45 @@ a:hover{
     }
     .review{
         font-size: 15px;
-        width: 40%;
+        width: 45%;
         line-height: 15px;
         left: 40%;
         top: 200px;
+        animation: review-box 1s infinite forwards;
     }
     .text-box{
         font-size: 15px;
-        width: 40%;
+        width: 45%;
         line-height: 15px;
-        left: -7%;
+        left: -9%;
         top: 200px;
+        animation: text-box 1s infinite forwards;
     }
     #img3{
         /* garlic */
-        left: 4%;
+        left: 2%;
         width: 100px;
         top: 130px;
     }
     a{
-        top: 600px;
+        top: 580px;
+        font-size: 15px;
+        padding: 10px;
     }
     #next-page{
-        top: 620px;
+        top: 590px;
     }
     #prev-page{
-        top: 640px;
+        top: 600px;
+    }
+    @keyframes text-box {
+        0% {border: 5px dotted orange;}
+        50% {border: 5px dotted palegoldenrod;}
+        100% {border: 5px dotted orange;}
+    }
+    @keyframes review-box {
+        0% {border: 5px dotted palegoldenrod;}
+        50% {border: 5px dotted orange;}
+        100% {border: 5px dotted palegoldenrod;}
     }
 }

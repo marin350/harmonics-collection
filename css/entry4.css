@@ -288,7 +288,7 @@ a:hover{
         margin-top: -20px
     }
     h2{
-        font-size: 60px;
+        font-size: 50px;
         top: 30px;
         left: 0%
     }
@@ -298,94 +298,100 @@ a:hover{
     }
     #sticker-2{
          left: -5%;
-         top: -170px;
+         top: -150px;
     }
     #sticker-3{
          left: 53%;
          top: -100px;
     }
     #img-1{
-        width: 200px;
+        width: 150px;
     }
     #img-2{
-        width: 200px;
+        width: 150px;
         top: 0;
         left: 54%;
     }
     #img-3{
-        width: 200px;
-        top: 250px;
+        width: 150px;
+        top: 190px;
     }
     #img-4{
-        width: 200px;
-        top: 260px;
+        width: 150px;
+        top: 190px;
         left: 54%;
     }
     #pot{
         width: 150px;
-        left: -1%;
-        top: 430px;
+        left: -3%;
+        top: 300px;
         rotate: 30deg;
     }
     #shrimp{
         width: 150px;
-        top: 550px;
-        left: 68%;
+        top: 400px;
+        left: 61%;
     }
     #leaf{
-        width: 150px;
-        top: 140px;
+        width: 100px;
+        top: 100px;
         left: 65%;
         rotate: 90deg;
     }
     #squig1{
         width: 100px;
         left: 40%;
-        top: 170px;
+        top: 120px;
     }
     #squig2{
         width: 100px;
         left: 80%;
-        top: 430px;
+        top: 300px;
     }
     #spoon{
         width: 150px;
-        top: 350px;
+        top: 230px;
         left: 30%;
     }
     .text-box{
         width: 60%;
         font-size: 15px;
         line-height: 16px;
-        border-radius: 90px;
+        border-radius: 80px;
         padding: 25px;
-        top: 500px;
-        left: 0;
+        top: 380px;
+        left: -5%;
     }
     .review{
         width: 60%;
         font-size: 15px;
         line-height: 16px;
-        border-radius: 90px;
+        border-radius: 80px;
         padding: 25px;
-        top: 750px;
-        left: 0%;
+        top: 650px;
+        left: -5%;
     }
     #stars{
-        top: 800px;
-        left: 47%;
+        top: 640px;
+        left: 38%;
         width: 330px;
         rotate: 90deg
     }
     a{
-        top: 1010px;
+        top: 900px;
         left: -20%;
+        font-size: 15px;
+        padding: 10px;
     }
     #nextpage{
-        top: 1030px;
+        top: 910px;
+        font-size: 15px;
+        padding: 10px;
     }
     #prevpage{
-        top: 1050px;
+        top: 920px;
+        font-size: 15px;
+        padding: 10px;
     }
 }
 

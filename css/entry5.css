@@ -216,31 +216,32 @@ a:hover{
         margin-top: -20px
     }
     h2{
-        font-size: 50px;
+        font-size: 40px;
         top: 20px;
+        left:0;
     }
     #sticker-1{
         left: 74%;
-        top: -220px;
+        top: -200px;
         width: 150px;
     }
     #sticker-2{
          left: -2%;
-         top: -210px;
+         top: -180px;
          width: 150px;
     }
     #sticker-3{
          left: 56%;
-         top: -150px;
+         top: -120px;
          width: 150px;
     }
     .img-border{
         left: 5%;
         rotate: 0deg;
-        top: -50px;
+        top: -30px;
     }
     img{
-        max-width: 370px;
+        max-width: 300px;
     }
     .img-border:hover{
         rotate: 0deg
@@ -248,39 +249,43 @@ a:hover{
     .review{
         font-size: 15px;
         line-height: 15px;
-        left: 5%;
+        left: -2%;
         width: 40%;
-        top: 630px;
-        padding: 10px;
+        top: 560px;
+        padding: 5px;
     }
     #text-border{
         font-size: 15px;
         line-height: 15px;
-        left: 5%;
+        left: -2%;
         width: 40%;
-        top: 400px;
-        padding: 10px;
+        top: 300px;
+        padding: 5px;
     }
     a{
-        top: 880px;
+        top: 800px;
+        left: 5%;
+        font-size: 15px;
     }
     #nextpage{
-        top: 900px;
+        top: 810px;
+        font-size: 15px;
     }
     #prevpage{
-        top: 920px;
+        top: 820px;
+        font-size: 15px;
     }
     #dog{
         top: 420px;
         width: 190px;
-        left: 60%;
+        left: 53%;
     }
     #stars{
-        top: 300px;
+        top: 250px;
         left: 5%;
     }
     #stars2{
-        top: 300px;
+        top: 250px;
         left: 5%;
     }
 }
