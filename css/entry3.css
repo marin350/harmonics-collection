@@ -253,8 +253,8 @@ a:hover{
         margin-top: -20px
     }
     h2{
-        font-size: 100px;
-        top: 35px;
+        font-size: 70px;
+        top: 15px;
         left: 0;
     }
     #sticker-1{
@@ -263,28 +263,28 @@ a:hover{
     }
     #sticker-2{
          left: -2%;
-         top: -230px;
+         top: -210px;
     }
     #sticker-3{
-         left: 68%;
-         top: -70px;
+         left: 45%;
+         top: -150px;
     }
     #img-1{
-        top: 10px;     
+        top: -10px;     
     }
     #img-2{
-        top: 270px;
-        left: 10%;
+        top: 240px;
+        left: 0%;
         rotate: 0deg;
     }
     #ruby1{
         width: 100px;
-        left: 80%; 
-        top: 260px;   
+        left: 70%; 
+        top: 220px;   
     }
     #ruby2{
         width: 130px;
-        top: 10px;
+        top: -5px;
         left: -2%;
     }
     img{
@@ -294,7 +294,7 @@ a:hover{
         font-size: 13px;
         width: 45%;
         line-height: 13px;
-        top: 650px;
+        top: 520px;
         left: 5%;
         padding: 10px;
     }
@@ -302,34 +302,38 @@ a:hover{
         font-size: 13px;
         width: 45%;
         line-height: 13px;
-        top: 800px;
-        left: 50%;
+        top: 650px;
+        left: 45%;
         padding: 10px;
     }
     #stars{
-        width: 350px;
-        top: 540px;
-        left: 10%;
+        width: 200px;
+        top: -70px;
+        left: 45%;
     }
     a{
-        top: 850px;
+        top: 650px;
         left: 5%;
+        font-size: 15px;
+        padding: 10px;
     }
     #nextpage{
-        top: 870px;
+        top: 660px;
     }
     #prevpage{
-        top: 890px;
+        top: 670px;
     }   
     #burger{
-        top: 660px;
+        top: 520px;
         width: 160px;
-        left: 60%;
+        left: 55%;
         z-index: 1;
     }
     #drink{
-        width: 100px;
-        top: 830px;
+        width: 90px;
+        top: 650px;
+        rotate: 15deg;
         left: 10%;
+        z-index: 1;
     }
 }
