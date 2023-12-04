@@ -349,7 +349,7 @@ a:hover{
     a{
         left: -25%;
         top: 300px;
-        font-size: 15px;
+        font-size: 10px;
         padding:10px
     }
     #next-page{
@@ -359,6 +359,6 @@ a:hover{
         top: 340px;
     }
     .pbuttons{
-        margin-bottom: 100vh;
+        margin-bottom: 50vh;
     }
 }

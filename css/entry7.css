@@ -326,11 +326,11 @@ a:hover{
     #button1{
         width: 100px;
         font-size: 13px;
-        top: 770px;
+        top: 790px;
         left: 3%;
     }
     .pbuttons{
-        margin-bottom: 100vh;
+        margin-bottom: 50vh;
     }
 }
 
