@@ -1,0 +1,281 @@
+body{
+    background-image: url(../img/bbb.png);
+    background-size: 90%;
+    background-repeat: repeat;
+    background-color: #CEE6BD;
+    font-family: 'space grotesk';
+    font-weight: 400;
+}
+@keyframes header-color {
+    0% {color: black;}
+    30% {color: orangered;}
+    70% {color: orange;}
+    100% {color: black;}
+}
+h1{
+    color: black;
+    letter-spacing: -3px;
+    text-align: center;
+    font-size: 40px;
+    animation: header-color 2s infinite forwards;
+}
+hr{
+    border-top: 5px dashed;
+    border-bottom: 0px;
+    color: orangered;
+    width: 50%;
+}
+h2{
+    font-family: "acme";
+    font-size: 70px;
+    color: orangered;
+    margin-left: 5%;
+}
+#img-1{
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    
+}
+.review{
+    position: absolute;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 10px;
+    border: 5px solid orangered;
+    width: 30%;
+    top: 250px;
+    font-size: 20px;
+    left: 5%;
+}
+.parent-div{
+    position: relative;
+}
+.text-box{
+    position: absolute;
+    left: 5%;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 10px;
+    border: 5px solid orangered;
+    font-size: 20px;
+}
+#sticker-1{
+    position: absolute;
+    rotate: 15deg;
+    left: 80%;
+    top: -270px;
+    z-index: 1;
+}
+#sticker-2{
+    position: absolute;
+    z-index: 2;
+    left: 70%;
+    top: -250px;
+}
+#sticker-3{
+    position: absolute;
+    left: 77%;
+    top: -290px;
+    z-index: 3;
+}
+.sticker-div{
+    position: relative;
+}
+a{
+    background-color: orangered;
+    color: orange;
+    border-radius: 10px;
+    border: 2px solid orange;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    top: 600px;
+    left: 5%;
+    text-decoration: none;
+}
+a:hover{
+    background-color: orange;
+    color: orangered;
+    font-size: 18px;
+}
+#prev-page{
+    top: 640px;
+}
+#next-page{
+    top: 620px;
+}
+
+#lime{
+    position: absolute;
+    width: 200px;
+    top: 250px;
+    left: 45%;
+}
+#hat{
+    position: absolute;
+    width: 500px;
+    top: 470px;
+    left: 45%;
+    rotate: -20deg;
+}
+#leaf{
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    left: 80%;
+}
+#stars{
+    position: absolute;
+    width: 650px;
+    top: -150px;
+    left: 36%;
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 75px;
+    }
+    #sticker-1{
+        left: 77%;
+        top: -350px;
+     }
+     #sticker-2{
+         left: -2%;
+         top: -230px;
+    }
+     #sticker-3{
+         left: 5%;
+         top: -310px;
+    }
+    #img-1{
+        width: 100px;
+        left: 3%;
+    }
+    .text-box{
+        top: 600px;
+    }
+    .review{
+        top: 820px;
+        width: 80%;
+    }
+    a{
+        top: 1100px;
+    }
+    #prev-page{
+        top: 1140px;
+    }
+    #next-page{
+        top: 1120px;
+    }
+    #lime{
+        left: -1%;
+        top: 300px;
+        width: 150px;
+        rotate: -15deg;
+    }
+    #leaf{
+        width: 150px;
+        left: 75%;
+    }
+    #stars{
+        top: 450px;
+        left: 8%;
+        width: 500px;
+    }
+    #hat{
+        top: 1050px;
+        left: 35%;
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 932px) {
+    h1{
+        font-size: 30px
+    }
+    hr{
+        margin-top: -20px
+    }
+    h2{
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+        width: 300px;
+        line-height: 50px;
+    }
+    #sticker-1{
+        left: 73%;
+        top: -260px;
+     }
+     #sticker-2{
+         left: -3%;
+         top: -230px;
+     }
+     #sticker-3{
+         left: 50%;
+         top: -180px;
+    }
+    #img-1{
+        width: 100px;
+        left: 3%;
+        top: 5px;
+    }
+    .text-box{
+        top: 330px;
+        left: 0;
+        width: 40%;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px;
+    }
+    .review{
+        top: 330px;
+        left: 50%;
+        width: 40%;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px;
+    }
+    a{
+        top: 600px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    #next-page{
+        top: 610px;
+    }
+    #prev-page{
+        top: 620px;
+    }
+    #lime{
+        left: -1%;
+        top: 210px;
+        width: 150px;
+        rotate: -15deg;
+        z-index: 1;
+    }
+    img{
+        max-width: 400px;
+    }
+    #leaf{
+        width: 150px;
+        left: 70%;
+        top: 210px;
+        z-index: 1;
+    }
+    #stars{
+        top: -40px;
+        left: 25%;
+        width: 300px;
+    }
+    #hat{
+        top: 480px;
+        left: 40%;
+        width: 200px;
+        z-index: 1;
+    }
+    .pbuttons{
+        margin-bottom: 100vh;
+    }
+}
