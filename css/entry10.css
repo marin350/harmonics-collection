@@ -283,4 +283,7 @@ a:hover{
         from {left: 100%}
         to {left: -100%}
     }
+    .pbuttons{
+        margin-bottom: 100vh;
+    }
 }

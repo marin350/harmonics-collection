@@ -310,4 +310,7 @@ a:hover{
         50% {border: 5px dotted orange;}
         100% {border: 5px dotted palegoldenrod;}
     }
+    .pbuttons{
+        margin-bottom: 100vh;
+    }
 }

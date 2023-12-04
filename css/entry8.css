@@ -356,5 +356,8 @@ a:hover{
         rotate: 30deg;
         width: 80px;
     }
+    .pbuttons{
+        margin-bottom: 100vh;
+    }
 }
 

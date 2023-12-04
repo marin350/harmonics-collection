@@ -273,37 +273,37 @@ a:hover{
         top: -10px;     
     }
     #img-2{
-        top: 240px;
-        left: 0%;
+        top: 200px;
+        left: 10%;
         rotate: 0deg;
     }
     #ruby1{
-        width: 100px;
-        left: 70%; 
-        top: 220px;   
+        width: 70px;
+        left: 74%; 
+        top: 190px;   
     }
     #ruby2{
-        width: 130px;
+        width: 70px;
         top: -5px;
         left: -2%;
     }
     img{
-        max-width: 350px;
+        max-width: 300px;
     }
     .text-box{
         font-size: 13px;
         width: 45%;
         line-height: 13px;
-        top: 520px;
-        left: 5%;
+        top: 450px;
+        left: 0%;
         padding: 10px;
     }
     .review{
         font-size: 13px;
-        width: 45%;
+        width: 40%;
         line-height: 13px;
-        top: 650px;
-        left: 45%;
+        top: 450px;
+        left: 47%;
         padding: 10px;
     }
     #stars{
@@ -312,28 +312,33 @@ a:hover{
         left: 45%;
     }
     a{
-        top: 650px;
-        left: 5%;
+        top: 460px;
+        left: 0%;
         font-size: 15px;
         padding: 10px;
+        margin: 10px;
     }
     #nextpage{
-        top: 660px;
+        top: 470px;
     }
     #prevpage{
-        top: 670px;
+        top: 480px;
+        margin-bottom: 50px;
     }   
     #burger{
-        top: 520px;
-        width: 160px;
-        left: 55%;
+        top: 620px;
+        width: 100px;
+        left: 73%;
         z-index: 1;
     }
     #drink{
         width: 90px;
-        top: 650px;
+        top: 600px;
         rotate: 15deg;
-        left: 10%;
+        left: 50%;
         z-index: 1;
+    }
+    .pbuttons{
+        margin-bottom: 100vh;
     }
 }

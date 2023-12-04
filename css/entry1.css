@@ -382,6 +382,9 @@ hr{
         50% {left: 25%;}
         100% {left: 2%;}
     }
+    .pbuttons{
+        margin-bottom: 100vh;
+    }
 }
 
 

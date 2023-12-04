@@ -329,5 +329,8 @@ a:hover{
         top: 770px;
         left: 3%;
     }
+    .pbuttons{
+        margin-bottom: 100vh;
+    }
 }
 

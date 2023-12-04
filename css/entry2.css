@@ -353,9 +353,12 @@ a:hover{
         padding:10px
     }
     #next-page{
-        top: 325px;
+        top: 320px;
     }
     #prev-page{
-        top: 335px;
+        top: 340px;
+    }
+    .pbuttons{
+        margin-bottom: 100vh;
     }
 }

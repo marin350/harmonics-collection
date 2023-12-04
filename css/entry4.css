@@ -328,8 +328,8 @@ a:hover{
         rotate: 30deg;
     }
     #shrimp{
-        width: 150px;
-        top: 400px;
+        width: 120px;
+        top: 370px;
         left: 61%;
     }
     #leaf{
@@ -355,8 +355,8 @@ a:hover{
     }
     .text-box{
         width: 60%;
-        font-size: 15px;
-        line-height: 16px;
+        font-size: 10px;
+        line-height: 10px;
         border-radius: 80px;
         padding: 25px;
         top: 380px;
@@ -364,34 +364,38 @@ a:hover{
     }
     .review{
         width: 60%;
-        font-size: 15px;
-        line-height: 16px;
+        font-size: 10px;
+        line-height: 10px;
         border-radius: 80px;
         padding: 25px;
-        top: 650px;
+        top: 560px;
         left: -5%;
     }
     #stars{
-        top: 640px;
-        left: 38%;
-        width: 330px;
+        top: 550px;
+        left: 45%;
+        width: 250px;
         rotate: 90deg
     }
     a{
-        top: 900px;
+        top: 750px;
         left: -20%;
         font-size: 15px;
         padding: 10px;
     }
     #nextpage{
-        top: 910px;
+        top: 760px;
         font-size: 15px;
         padding: 10px;
     }
     #prevpage{
-        top: 920px;
+        top: 770px;
         font-size: 15px;
         padding: 10px;
+        margin-bottom: 50px;
+    }
+    .pbuttons{
+        margin-bottom: 100vh;
     }
 }
 
