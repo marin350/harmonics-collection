@@ -307,9 +307,9 @@ a:hover{
         padding: 10px;
     }
     #stars{
-        width: 200px;
+        width: 180px;
         top: -70px;
-        left: 45%;
+        left: 50%;
     }
     a{
         top: 460px;
@@ -333,12 +333,12 @@ a:hover{
     }
     #drink{
         width: 90px;
-        top: 600px;
+        top: 620px;
         rotate: 15deg;
-        left: 50%;
+        left: 48%;
         z-index: 1;
     }
     .pbuttons{
-        margin-bottom: 50vh;
+        margin-bottom: 80vh;
     }
 }
