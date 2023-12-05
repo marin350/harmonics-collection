@@ -6,6 +6,7 @@ body{
     font-family: 'space grotesk';
     font-weight: 400;
     color:black;
+    margin-bottom: 50vh;
 }
 @keyframes header-color {
     0% {color: black;}
@@ -44,24 +45,27 @@ h2{
     color: brown;
 }
 a{
-    color: brown;
-    border: 3px dotted brown;
-    background-color: beige;
-    border-radius: 15px;
-    font-size: 15px;
-    width: 20%;
-    position: relative;
-    left: 10%;
-    top: 700px;
-    padding: 15px;
     text-decoration: none;
-   
+    position: absolute;
+    background-color: beige;
+    padding: 10px;
+    left: 7%;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px dotted brown;
+    color: brown;
+}
+.pbuttons{
+    position: relative;
+}
+#homepage{
+    top: 700px;
 }
 #next-page{
-    top: 730px;
+    top: 760px;
 }
 #prev-page{
-   top: 760px;
+   top: 830px;
 }
 a:hover{
     color: beige;
@@ -159,7 +163,7 @@ a:hover{
     left: 60%;
 }
 @keyframes candle {
-   0% {opacity: 1;}
+   0% {opacity: 1; transition: ease-in;}
    50% {opacity: 0;}
    100% {opacity: 1;}
 }
@@ -319,7 +323,7 @@ a:hover{
     #button{
         width: 130px;
         font-size: 15px;
-        top: 700px;
+        top: 640px;
         left: 65%;
     }
     #candle{
@@ -358,8 +362,5 @@ a:hover{
     }
     #prev-page{
         top: 340px;
-    }
-    .pbuttons{
-        margin-bottom: 10vh;
     }
 }
